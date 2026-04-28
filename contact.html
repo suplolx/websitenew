@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Kr8tig</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="flex flex-col min-h-screen bg-slate-50 text-slate-800 font-sans selection:bg-primary/20 selection:text-primary">
+
+  <!-- Navigation -->
+  <header id="main-header" class="fixed w-full z-50 transition-all duration-500 bg-white/10 backdrop-blur-md border-b border-white/10 scrolled">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-24 transition-all duration-500" id="header-container">
+        <div class="flex-shrink-0 flex items-center">
+          <a href="index.html" class="flex items-center gap-2 group">
+            <img class="h-16 w-auto transition-all duration-500 group-hover:scale-105" src="./assets/logo.png"
+              alt="Kr8tig Logo" id="header-logo" />
+          </a>
+        </div>
+        <nav class="hidden md:flex space-x-8 items-center">
+          <a href="index.html"
+            class="nav-link text-white hover:text-primary-light text-xs font-bold tracking-widest transition-colors uppercase">Home</a>
+          <a href="afdelingen.html"
+            class="nav-link text-white/80 hover:text-white text-xs font-bold tracking-widest transition-colors uppercase">Afdelingen</a>
+          <a href="verwijzers.html"
+            class="nav-link text-white/80 hover:text-white text-xs font-bold tracking-widest transition-colors uppercase">Verwijzers</a>
+          <a href="over-ons.html"
+            class="nav-link text-white/80 hover:text-white text-xs font-bold tracking-widest transition-colors uppercase">Over
+            ons</a>
+          <a href="team.html"
+            class="nav-link text-white/80 hover:text-white text-xs font-bold tracking-widest transition-colors uppercase">Ons
+            Team</a>
+          <a href="contact.html"
+            class="nav-link active text-white/80 hover:text-white text-xs font-bold tracking-widest transition-colors uppercase">Contact</a>
+
+          <div class="flex items-center space-x-5 ml-4 border-l border-white/20 pl-8 transition-colors duration-500">
+            <a href="#" class="social-icon text-white hover:text-primary-light transition-colors">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+              </svg>
+            </a>
+            <a href="#" class="social-icon text-white hover:text-primary-light transition-colors">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+            </a>
+            <a href="#" class="social-icon text-white hover:text-primary-light transition-colors">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-2.221c0-.822.112-1.117.73-1.117h2.628v-4.39h-3.583c-3.972 0-4.775 2.14-4.775 4.476v3.252z" />
+              </svg>
+            </a>
+          </div>
+        </nav>
+        <div class="md:hidden flex items-center">
+          <!-- Mobile menu button -->
+          <button type="button" class="mobile-btn text-white hover:text-primary focus:outline-none p-2">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div id="mobile-menu">
+    <button type="button" class="close-menu absolute top-8 right-8 text-white/70 hover:text-white p-2 transition-transform hover:rotate-90">
+      <svg class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+    
+    <div class="mb-12 text-center">
+      <img class="h-20 w-auto mx-auto" src="./assets/logo.png" alt="Kr8tig Logo" style="filter: brightness(0) invert(1);" />
+    </div>
+
+    <nav class="flex flex-col space-y-6 text-center">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="afdelingen.html" class="mobile-nav-link">Afdelingen</a>
+      <a href="verwijzers.html" class="mobile-nav-link">Verwijzers</a>
+      <a href="over-ons.html" class="mobile-nav-link">Over ons</a>
+      <a href="team.html" class="mobile-nav-link">Ons Team</a>
+      <a href="contact.html" class="mobile-nav-link text-primary-light">Contact</a>
+    </nav>
+
+    <div class="mt-16 flex space-x-8">
+      <a href="#" class="text-white/40 hover:text-primary transition-colors">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      </a>
+      <a href="#" class="text-white/40 hover:text-primary transition-colors">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Page Header -->
+  <section class="pt-32 pb-16 bg-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">Neem Contact Op</h1>
+      <div class="w-24 h-1.5 bg-primary mx-auto rounded-full mb-8"></div>
+      <p class="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
+        Heeft u vragen of wilt u meer informatie? Wij staan u graag te woord. U bent ook altijd welkom voor een kennismaking.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-16">
+        
+        <!-- Contact Info -->
+        <div>
+          <h2 class="text-3xl font-bold text-slate-900 mb-8">Onze Gegevens</h2>
+          
+          <div class="space-y-8">
+            <div class="flex items-start">
+              <div class="flex-shrink-0 w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center text-primary mt-1">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              </div>
+              <div class="ml-6">
+                <h3 class="text-xl font-bold text-slate-900 mb-2">Bezoekadres</h3>
+                <p class="text-slate-600 text-lg">Kr8tig<br/>Parallelweg 169<br/>6001 HM Weert</p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="flex-shrink-0 w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center text-primary mt-1">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+              </div>
+              <div class="ml-6">
+                <h3 class="text-xl font-bold text-slate-900 mb-2">E-mail</h3>
+                <p class="text-slate-600 text-lg"><a href="mailto:info@kr8tig.nl" class="hover:text-primary transition-colors">info@kr8tig.nl</a></p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="flex-shrink-0 w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center text-primary mt-1">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+              </div>
+              <div class="ml-6">
+                <h3 class="text-xl font-bold text-slate-900 mb-2">Telefoon</h3>
+                <p class="text-slate-600 text-lg"><a href="tel:+310495123456" class="hover:text-primary transition-colors">0495 - 123 456</a> <span class="text-sm text-slate-400 block mt-1">(bereikbaar op werkdagen tussen 09:00 - 17:00)</span></p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="mt-12 bg-slate-50 p-8 rounded-3xl border border-slate-100">
+            <h3 class="text-xl font-bold text-slate-900 mb-3">Route en Parkeren</h3>
+            <p class="text-slate-600 leading-relaxed">
+              Ons pand is gevestigd aan de Parallelweg 169. Er is voldoende (gratis) parkeergelegenheid op ons eigen terrein. Komt u met het openbaar vervoer? Het treinstation van Weert ligt op slechts 10 minuten loopafstand.
+            </p>
+          </div>
+        </div>
+
+        <!-- Google Maps Placeholder / Card -->
+        <div class="bg-slate-100 rounded-3xl overflow-hidden shadow-inner border border-slate-200 relative h-[500px] flex items-center justify-center group">
+          <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+CjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iI2Y4ZmFmYyI+PC9yZWN0Pgo8cGF0aCBkPSJNMCAwTDIwIDIwWk0yMCAwTDAgMjBaIiBzdHJva2U9IiNlMmU4ZjAiIHN0cm9rZS13aWR0aD0iMSI+PC9wYXRoPgo8L3N2Zz4=')] opacity-50"></div>
+          
+          <div class="relative z-10 bg-white/90 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/50 text-center max-w-xs transform group-hover:scale-105 transition-transform duration-300">
+            <svg class="w-12 h-12 text-primary mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path></svg>
+            <h3 class="font-bold text-slate-900">Locatie op Kaart</h3>
+            <p class="text-sm text-slate-500 mt-2">Parallelweg 169, Weert</p>
+            <a href="https://maps.google.com/?q=Parallelweg+169,+6001+HM+Weert" target="_blank" class="mt-4 inline-block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+              Open in Google Maps &rarr;
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-300 py-16 border-t border-slate-800 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div>
+          <img src="./assets/logo.png" alt="Kr8tig Logo" class="h-12 mb-6 brightness-0 invert opacity-90" />
+          <p class="text-sm leading-relaxed max-w-xs">
+            Kr8tig in Weert biedt een veilige haven voor ontwikkeling en groei.
+          </p>
+        </div>
+        <div>
+          <h4 class="text-white font-bold mb-6 text-lg tracking-wide">Contact</h4>
+          <ul class="space-y-3 text-sm">
+            <li class="flex items-start">
+              <svg class="w-5 h-5 mr-3 text-primary mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path></svg>
+              Parallelweg 169<br/>6001 HM Weert
+            </li>
+            <li class="flex items-center">
+              <svg class="w-5 h-5 mr-3 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+              info@kr8tig.nl
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-bold mb-6 text-lg tracking-wide">Snel naar</h4>
+          <ul class="space-y-3 text-sm flex flex-col">
+            <li><a href="afdelingen.html" class="hover:text-white hover:underline transition-colors">Afdelingen</a></li>
+            <li><a href="verwijzers.html" class="hover:text-white hover:underline transition-colors">Verwijzers</a></li>
+            <li><a href="over-ons.html" class="hover:text-white hover:underline transition-colors">Over ons</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-slate-800 mt-12 pt-8 text-center text-sm text-slate-500">
+        &copy; 2026 Kr8tig Weert. Alle rechten voorbehouden.
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
