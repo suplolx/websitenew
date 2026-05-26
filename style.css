@@ -100,9 +100,9 @@ header.scrolled {
   padding-bottom: 0 !important;
 }
 
-header.subpage-nav {
-  background-color: rgba(255, 248, 253, 0.88) !important; /* Tinted with brand color */
-  border-bottom: 1px solid rgba(121, 27, 92, 0.08) !important;
+header#main-header.subpage-nav {
+  background-color: rgba(253, 230, 246, 0.94) !important; /* Soft, clearly visible plum tint */
+  border-bottom: 1px solid rgba(121, 27, 92, 0.15) !important;
 }
 
 header.scrolled .nav-link {
