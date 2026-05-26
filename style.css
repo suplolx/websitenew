@@ -424,8 +424,8 @@ section h2 + .bg-primary {
 
 /* Modernized Footer */
 footer.bg-slate-900 {
-  background: radial-gradient(circle at top right, rgba(121, 27, 92, 0.05) 0%, #0b090e 100%) !important;
-  border-top: 1px solid rgba(255, 255, 255, 0.03) !important;
+  background: linear-gradient(135deg, #180914 0%, #0d040a 100%) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.04) !important;
 }
 
 footer.bg-slate-900 .border-t {
