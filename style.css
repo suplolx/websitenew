@@ -110,14 +110,16 @@ header.scrolled {
 }
 
 header#main-header.subpage-nav.nav-at-top {
-  background-color: rgba(255, 255, 255, 0.95) !important; /* Initial clean white background */
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  /* Initial clean white background */
   backdrop-filter: blur(24px) saturate(180%) !important;
   border-bottom: 1px solid rgba(226, 232, 240, 0.8) !important;
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.02) !important;
 }
 
 header#main-header.subpage-nav.scrolled {
-  background-color: rgba(235, 195, 225, 0.8) !important; /* Rich lavender-plum glass tint when scrolled */
+  background-color: rgba(235, 195, 225, 0.5) !important;
+  /* Rich lavender-plum glass tint when scrolled */
   backdrop-filter: blur(24px) saturate(180%) !important;
   border-bottom: 1px solid rgba(121, 27, 92, 0.16) !important;
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.04) !important;
@@ -462,8 +464,8 @@ section h2+.bg-primary {
 
 /* Modernized Footer */
 footer.bg-slate-900 {
-  background: linear-gradient(135deg, #180914 0%, #0d040a 100%) !important;
-  border-top: 1px solid rgba(255, 255, 255, 0.04) !important;
+  background: linear-gradient(135deg, #24101e 0%, #150811 100%) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
 
 footer.bg-slate-900 .border-t {
