@@ -39,3 +39,36 @@ document.addEventListener('click', (e) => {
     toggleMenu(false);
   }
 });
+
+// Scroll Reveal Animation (Intersection Observer)
+const initScrollReveal = () => {
+  const revealElements = document.querySelectorAll(
+    '.group, section.py-32, section.py-20, section.py-16, .grid > div, .prose h2, .prose p, .bg-slate-50.p-8, .flex.items-start'
+  );
+
+  const observerOptions = {
+    threshold: 0.05,
+    rootMargin: '0px 0px -60px 0px'
+  };
+
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('reveal-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+
+  revealElements.forEach(el => {
+    el.classList.add('reveal-hidden');
+    revealObserver.observe(el);
+  });
+};
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initScrollReveal);
+} else {
+  initScrollReveal();
+}
+
