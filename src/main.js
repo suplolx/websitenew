@@ -17,6 +17,11 @@ const handleScroll = () => {
 window.addEventListener('scroll', handleScroll);
 handleScroll();
 
+// Detect subpages (no hero banner) to tint the navbar
+if (header && !hero) {
+  header.classList.add('subpage-nav');
+}
+
 // Mobile Menu Toggle
 const toggleMenu = (show) => {
   const mobileMenu = document.getElementById('mobile-menu');
