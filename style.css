@@ -101,8 +101,9 @@ header.scrolled {
 }
 
 header#main-header.subpage-nav {
-  background-color: rgba(253, 230, 246, 0.94) !important; /* Soft, clearly visible plum tint */
-  border-bottom: 1px solid rgba(121, 27, 92, 0.15) !important;
+  background-color: rgba(253, 230, 246, 0.72) !important; /* Translucent soft plum glass tint */
+  backdrop-filter: blur(24px) saturate(180%) !important;
+  border-bottom: 1px solid rgba(121, 27, 92, 0.12) !important;
 }
 
 header.scrolled .nav-link {
