@@ -7,10 +7,12 @@ const hero = document.querySelector('section.relative.h-screen');
 const handleScroll = () => {
   if (!header) return;
   
-  if (window.scrollY > 50 || !hero) {
+  if (window.scrollY > 50) {
     header.classList.add('scrolled');
+    header.classList.remove('nav-at-top');
   } else {
     header.classList.remove('scrolled');
+    header.classList.add('nav-at-top');
   }
 };
 
