@@ -363,10 +363,22 @@ section h2+.bg-primary {
   background: #ffffff !important;
   transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1) !important;
   border-top: 5px solid transparent !important;
+  
+  /* Fix Chromium rounded corners bug during scale/transform transitions */
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform;
 }
 
 .group.bg-white.rounded-3xl:hover {
-  transform: translateY(-8px) !important;
+  transform: translateY(-8px) translateZ(0) !important;
+}
+
+/* Fix rounded corner overflow-hidden rendering in Chromium for child scaling */
+.group .overflow-hidden {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform;
 }
 
 /* Individual Department Themes */
