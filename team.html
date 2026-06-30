@@ -126,11 +126,12 @@
     </div>
   </section>
 
-  <section class="py-24 bg-slate-50 relative overflow-hidden">
-    <!-- Subtle Background Decoration -->
-    <div class="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-slate-100 to-transparent"></div>
+  <section class="py-24 bg-slate-50/40 relative overflow-hidden bg-grid-pattern">
+    <!-- Ambient glowing backgrounds to match modern design theme -->
+    <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full filter blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary-light/5 rounded-full filter blur-3xl pointer-events-none"></div>
 
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
       <!-- --- GROEPSBEGELEIDERS --- -->
       <div class="mb-16">
@@ -141,11 +142,8 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
 
           <!-- Team Member: Frank -->
-          <div
-            class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-            <div
-              class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10">
-            </div>
+          <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-techniek">
+            <div class="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
             <div class="aspect-[4/5] overflow-hidden bg-slate-100 relative">
               <img src="./assets/personeel/Frank.png" alt="Frank"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
@@ -156,18 +154,15 @@
             </div>
             <div class="p-6 flex-grow flex flex-col relative z-20">
               <h3
-                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-primary transition-colors duration-300">
+                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-orange-600 transition-colors duration-300">
                 Frank</h3>
               <p class="text-slate-500 font-medium text-sm">Groepsbegeleider Techniek</p>
             </div>
           </div>
 
           <!-- Team Member: Jan -->
-          <div
-            class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-            <div
-              class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10">
-            </div>
+          <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-techniek">
+            <div class="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
             <div class="aspect-[4/5] overflow-hidden bg-slate-100 relative">
               <img src="./assets/personeel/Jan.png" alt="Jan"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
@@ -178,18 +173,15 @@
             </div>
             <div class="p-6 flex-grow flex flex-col relative z-20">
               <h3
-                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-primary transition-colors duration-300">
+                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-orange-600 transition-colors duration-300">
                 Jan</h3>
               <p class="text-slate-500 font-medium text-sm">Groepsbegeleider Fietsenwerkplaats</p>
             </div>
           </div>
 
           <!-- Team Member: Jurgen -->
-          <div
-            class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-            <div
-              class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10">
-            </div>
+          <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-bakkerij">
+            <div class="absolute inset-0 bg-gradient-to-br from-amber-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
             <div class="aspect-[4/5] overflow-hidden bg-slate-100 relative">
               <img src="./assets/personeel/Jurgen.png" alt="Jurgen"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
@@ -200,18 +192,15 @@
             </div>
             <div class="p-6 flex-grow flex flex-col relative z-20">
               <h3
-                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-primary transition-colors duration-300">
+                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-amber-600 transition-colors duration-300">
                 Jurgen</h3>
               <p class="text-slate-500 font-medium text-sm">Groepsbegeleider Bakkerij</p>
             </div>
           </div>
 
           <!-- Team Member: Koen -->
-          <div
-            class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-            <div
-              class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10">
-            </div>
+          <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-ict">
+            <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
             <div class="aspect-[4/5] overflow-hidden bg-slate-100 relative">
               <img src="./assets/personeel/Koen.png" alt="Koen"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
@@ -222,18 +211,15 @@
             </div>
             <div class="p-6 flex-grow flex flex-col relative z-20">
               <h3
-                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-primary transition-colors duration-300">
+                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-blue-600 transition-colors duration-300">
                 Koen</h3>
               <p class="text-slate-500 font-medium text-sm">Groepsbegeleider ICT</p>
             </div>
           </div>
 
           <!-- Team Member: Nina -->
-          <div
-            class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-            <div
-              class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10">
-            </div>
+          <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-beauty">
+            <div class="absolute inset-0 bg-gradient-to-br from-pink-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
             <div class="aspect-[4/5] overflow-hidden bg-slate-100 relative">
               <img src="./assets/personeel/Nina.png" alt="Nina"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
@@ -244,18 +230,15 @@
             </div>
             <div class="p-6 flex-grow flex flex-col relative z-20">
               <h3
-                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-primary transition-colors duration-300">
+                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-pink-600 transition-colors duration-300">
                 Nina</h3>
               <p class="text-slate-500 font-medium text-sm">Groepsbegeleider Beautysalon</p>
             </div>
           </div>
 
           <!-- Team Member: Eveline -->
-          <div
-            class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-            <div
-              class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10">
-            </div>
+          <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-horeca">
+            <div class="absolute inset-0 bg-gradient-to-br from-rose-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
             <div class="aspect-[4/5] overflow-hidden bg-slate-100 relative">
               <img src="./assets/personeel/eveline.png" alt="Eveline"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
@@ -266,18 +249,15 @@
             </div>
             <div class="p-6 flex-grow flex flex-col relative z-20">
               <h3
-                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-primary transition-colors duration-300">
+                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-rose-600 transition-colors duration-300">
                 Eveline</h3>
               <p class="text-slate-500 font-medium text-sm">Groepsbegeleider Horeca</p>
             </div>
           </div>
 
           <!-- Team Member: Warre -->
-          <div
-            class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-            <div
-              class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10">
-            </div>
+          <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-creatief">
+            <div class="absolute inset-0 bg-gradient-to-br from-violet-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
             <div class="aspect-[4/5] overflow-hidden bg-slate-100 relative">
               <img src="./assets/personeel/warre.png" alt="Warre"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
@@ -288,18 +268,15 @@
             </div>
             <div class="p-6 flex-grow flex flex-col relative z-20">
               <h3
-                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-primary transition-colors duration-300">
+                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-violet-600 transition-colors duration-300">
                 Warre</h3>
               <p class="text-slate-500 font-medium text-sm">Groepsbegeleider 3dPrinting</p>
             </div>
           </div>
 
           <!-- Team Member: Hans -->
-          <div
-            class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-            <div
-              class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10">
-            </div>
+          <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-ict">
+            <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
             <div class="aspect-[4/5] overflow-hidden bg-slate-100 relative">
               <img src="./assets/personeel/hans.jpg" alt="Hans"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
@@ -310,7 +287,7 @@
             </div>
             <div class="p-6 flex-grow flex flex-col relative z-20">
               <h3
-                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-primary transition-colors duration-300">
+                class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-blue-600 transition-colors duration-300">
                 Hans</h3>
               <p class="text-slate-500 font-medium text-sm">Groepsbegeleider ICT</p>
             </div>
@@ -326,14 +303,11 @@
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
 
-          <!-- Team Member: Jaimy -->
-          <div
-            class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-            <div
-              class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10">
-            </div>
+          <!-- Team Member: Jamie -->
+          <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-primary">
+            <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
             <div class="aspect-[4/5] overflow-hidden bg-slate-100 relative">
-              <img src="./assets/personeel/Jaimy.png" alt="Jaimy"
+              <img src="./assets/personeel/Jaimy.png" alt="Jamie"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
                 loading="lazy">
               <div
@@ -343,17 +317,14 @@
             <div class="p-6 flex-grow flex flex-col relative z-20">
               <h3
                 class="text-xl font-extrabold text-slate-900 mb-1 tracking-wide group-hover:text-primary transition-colors duration-300">
-                Jaimy</h3>
+                Jamie</h3>
               <p class="text-slate-500 font-medium text-sm">Intern Begeleider</p>
             </div>
           </div>
 
           <!-- Team Member: Joaquin -->
-          <div
-            class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-            <div
-              class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10">
-            </div>
+          <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-primary">
+            <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
             <div class="aspect-[4/5] overflow-hidden bg-slate-100 relative">
               <img src="./assets/personeel/Joaquin.png" alt="Joaquin"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
@@ -381,11 +352,8 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
 
           <!-- Team Member: Rob -->
-          <div
-            class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-            <div
-              class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10">
-            </div>
+          <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-primary">
+            <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
             <div class="aspect-[4/5] overflow-hidden bg-slate-100 relative">
               <img src="./assets/personeel/Rob.png" alt="Rob"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
@@ -413,11 +381,8 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
 
           <!-- Team Member: May -->
-          <div
-            class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-            <div
-              class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10">
-            </div>
+          <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-primary">
+            <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
             <div class="aspect-[4/5] overflow-hidden bg-slate-100 relative">
               <img src="./assets/personeel/May.png" alt="May"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"

@@ -305,6 +305,20 @@ section.bg-slate-100::before {
   pointer-events: none;
 }
 
+.bg-grid-pattern {
+  position: relative;
+}
+.bg-grid-pattern::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(121, 27, 92, 0.03) 1.5px, transparent 1.5px);
+  background-size: 32px 32px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+
 section.bg-slate-100 h1 {
   font-family: var(--font-display) !important;
   background: linear-gradient(135deg, #0f172a 30%, #334155 100%);
@@ -340,7 +354,7 @@ section h2+.bg-primary {
   background: linear-gradient(to right, var(--color-primary), var(--color-primary-light)) !important;
 }
 
-/* Modernized Card System */
+/* Modernized Card System & Theming */
 .group.bg-white.rounded-3xl {
   border-radius: 2rem !important;
   border: 1px solid rgba(228, 228, 231, 0.8) !important;
@@ -348,13 +362,78 @@ section h2+.bg-primary {
   box-shadow: 0 10px 45px -12px rgba(0, 0, 0, 0.015), 0 1px 3px rgba(0, 0, 0, 0.005) !important;
   background: #ffffff !important;
   transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  border-top: 5px solid transparent !important;
 }
 
 .group.bg-white.rounded-3xl:hover {
-  transform: translateY(-6px) !important;
-  box-shadow: 0 35px 70px -15px rgba(121, 27, 92, 0.08), 0 10px 20px -10px rgba(121, 27, 92, 0.02) !important;
-  border-color: rgba(121, 27, 92, 0.12) !important;
+  transform: translateY(-8px) !important;
 }
+
+/* Individual Department Themes */
+.card-bakkerij {
+  border-top-color: #d97706 !important; /* Amber */
+}
+.card-bakkerij:hover {
+  box-shadow: 0 30px 60px -15px rgba(217, 119, 6, 0.15), 0 10px 20px -10px rgba(217, 119, 6, 0.04) !important;
+  border-color: rgba(217, 119, 6, 0.25) !important;
+}
+
+.card-horeca {
+  border-top-color: #e11d48 !important; /* Rose */
+}
+.card-horeca:hover {
+  box-shadow: 0 30px 60px -15px rgba(225, 29, 72, 0.15), 0 10px 20px -10px rgba(225, 29, 72, 0.04) !important;
+  border-color: rgba(225, 29, 72, 0.25) !important;
+}
+
+.card-ict {
+  border-top-color: #2563eb !important; /* Blue */
+}
+.card-ict:hover {
+  box-shadow: 0 30px 60px -15px rgba(37, 99, 235, 0.15), 0 10px 20px -10px rgba(37, 99, 235, 0.04) !important;
+  border-color: rgba(37, 99, 235, 0.25) !important;
+}
+
+.card-techniek {
+  border-top-color: #ea580c !important; /* Orange */
+}
+.card-techniek:hover {
+  box-shadow: 0 30px 60px -15px rgba(234, 88, 12, 0.15), 0 10px 20px -10px rgba(234, 88, 12, 0.04) !important;
+  border-color: rgba(234, 88, 12, 0.25) !important;
+}
+
+.card-beauty {
+  border-top-color: #db2777 !important; /* Pink */
+}
+.card-beauty:hover {
+  box-shadow: 0 30px 60px -15px rgba(219, 39, 119, 0.15), 0 10px 20px -10px rgba(219, 39, 119, 0.04) !important;
+  border-color: rgba(219, 39, 119, 0.25) !important;
+}
+
+.card-creatief {
+  border-top-color: #7c3aed !important; /* Violet */
+}
+.card-creatief:hover {
+  box-shadow: 0 30px 60px -15px rgba(124, 58, 237, 0.15), 0 10px 20px -10px rgba(124, 58, 237, 0.04) !important;
+  border-color: rgba(124, 58, 237, 0.25) !important;
+}
+
+.card-primary {
+  border-top-color: var(--color-primary) !important; /* Plum */
+}
+.card-primary:hover {
+  box-shadow: 0 30px 60px -15px rgba(121, 27, 92, 0.15), 0 10px 20px -10px rgba(121, 27, 92, 0.04) !important;
+  border-color: rgba(121, 27, 92, 0.25) !important;
+}
+
+
+/* Card Badge Pill base styling */
+.card-badge {
+  font-family: var(--font-display);
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
 
 /* Card Images Zoom */
 .group img.object-cover {

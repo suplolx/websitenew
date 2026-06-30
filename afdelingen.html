@@ -106,108 +106,138 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">Onze Afdelingen</h1>
       <div class="w-24 h-1.5 bg-primary mx-auto rounded-full mb-8"></div>
-      <p class="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-        Bij Kr8tig geloven we in leren door te doen. Ontdek onze diverse afdelingen waar deelnemers hun talenten kunnen ontwikkelen in een veilige en inspirerende omgeving.
+      <p class="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed mb-4">
+        Binnen onze afdelingen draait het om samenwerken, leren en ontwikkelen. Deelnemers staan hier niet aan de zijkant, maar midden in de praktijk. Samen met begeleiders die vakkennis combineren met aandacht en begrip, bouwen zij stap voor stap aan hun zelfvertrouwen, vaardigheden en toekomst.
+      </p>
+      <p class="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
+        Elke afdeling is een echte werkomgeving. Een plek waar je ziet dat deelnemers groeien door wat ze maken, doen en leren. Tegelijkertijd leveren we producten en diensten waar jij als klant direct iets aan hebt.
       </p>
     </div>
   </section>
 
   <!-- Afdelingen Grid -->
-  <section class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <section class="py-20 bg-slate-50/40 relative overflow-hidden bg-grid-pattern">
+    <!-- Ambient glowing backgrounds to match modern design theme -->
+    <div class="absolute top-1/4 left-1/3 w-96 h-96 bg-primary/5 rounded-full filter blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary-light/5 rounded-full filter blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
         
         <!-- Bakkerij -->
-        <div class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-          <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
+        <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-bakkerij">
+          <div class="absolute inset-0 bg-gradient-to-br from-amber-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
           <div class="aspect-w-16 aspect-h-10 overflow-hidden relative">
+            <span class="absolute top-4 left-4 z-30 bg-amber-600/90 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Ambacht</span>
             <img src="./assets/bakkerij.jpg" alt="Bakkerij" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-300"></div>
           </div>
           <div class="p-8 flex-grow flex flex-col relative z-20">
-            <h3 class="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-primary transition-colors duration-300">Bakkerij</h3>
-            <p class="text-slate-600 leading-relaxed mb-6 flex-grow">Leer de fijne kneepjes van het bakkersvak. Van brood tot patisserie, in onze bakkerij ontwikkelen deelnemers ambachtelijke vaardigheden.</p>
-            <a href="bakkerij.html" class="inline-flex items-center text-primary font-bold hover:text-primary-light transition-colors group/link w-fit mt-auto">
+            <h3 class="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-amber-600 transition-colors duration-300">Bakkerij</h3>
+            <p class="text-slate-600 leading-relaxed mb-6 flex-grow">De geur van versgebakken brood en ambachtelijke Limburgse vlaaien komt je al tegemoet. In onze bakkerij wordt met aandacht gewerkt aan eerlijke, smaakvolle producten, en ondertussen leren deelnemers hier het vak in de praktijk. Met jouw aankoop draag je direct bij aan hun ontwikkeling.</p>
+            <a href="bakkerij.html" class="inline-flex items-center text-amber-600 font-bold hover:text-amber-700 transition-colors group/link w-fit mt-auto">
               Lees meer <svg class="w-5 h-5 ml-2 group-hover/link:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
             </a>
           </div>
         </div>
 
         <!-- Horeca -->
-        <div class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-          <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
+        <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-horeca">
+          <div class="absolute inset-0 bg-gradient-to-br from-rose-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
           <div class="aspect-w-16 aspect-h-10 overflow-hidden relative">
+            <span class="absolute top-4 left-4 z-30 bg-rose-600/90 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Gastvrijheid</span>
             <img src="./assets/keuken.jpg" alt="Horeca" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-300"></div>
           </div>
           <div class="p-8 flex-grow flex flex-col relative z-20">
-            <h3 class="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-primary transition-colors duration-300">Horeca</h3>
-            <p class="text-slate-600 leading-relaxed mb-6 flex-grow">Ervaar de dynamiek van de horeca. Gastvrijheid, koken en bedienen staan centraal in deze praktijkgerichte leeromgeving.</p>
-            <a href="horeca.html" class="inline-flex items-center text-primary font-bold hover:text-primary-light transition-colors group/link w-fit mt-auto">
+            <h3 class="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-rose-600 transition-colors duration-300">Horeca</h3>
+            <p class="text-slate-600 leading-relaxed mb-6 flex-grow">In ons restaurant ben je welkom voor een heerlijke lunch in een gastvrije omgeving. Terwijl jij aanschuift, werken deelnemers aan hun vaardigheden, hun zelfvertrouwen en hun toekomst.</p>
+            <a href="horeca.html" class="inline-flex items-center text-rose-600 font-bold hover:text-rose-700 transition-colors group/link w-fit mt-auto">
               Lees meer <svg class="w-5 h-5 ml-2 group-hover/link:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
             </a>
           </div>
         </div>
 
-        <!-- ICT en multimedia -->
-        <div class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-          <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
+        <!-- Fietsenmaker -->
+        <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-fietsenmaker">
+          <div class="absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
           <div class="aspect-w-16 aspect-h-10 overflow-hidden relative">
-            <img src="./assets/ict.jpg" alt="ICT en multimedia" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <span class="absolute top-4 left-4 z-30 bg-emerald-600/90 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Mobiliteit</span>
+            <img src="./assets/fiets.jpg" alt="Fietsenmaker" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-300"></div>
           </div>
           <div class="p-8 flex-grow flex flex-col relative z-20">
-            <h3 class="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-primary transition-colors duration-300">ICT & Multimedia</h3>
-            <p class="text-slate-600 leading-relaxed mb-6 flex-grow">Ontdek de digitale wereld. Van computerreparatie tot basis programmeren en mediadesign, we bieden een breed scala aan technische vaardigheden.</p>
-            <a href="ict-multimedia.html" class="inline-flex items-center text-primary font-bold hover:text-primary-light transition-colors group/link w-fit mt-auto">
+            <h3 class="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-emerald-600 transition-colors duration-300">Fietsenmaker</h3>
+            <p class="text-slate-600 leading-relaxed mb-6 flex-grow">Is je fiets toe aan een reparatie of zoek je een betrouwbare tweedehands fiets? Dan helpen we je graag weer op weg. Ondertussen leren deelnemers hier een waardevol vak en bouwen ze aan hun zelfstandigheid.</p>
+            <a href="fietsenmaker.html" class="inline-flex items-center text-emerald-600 font-bold hover:text-emerald-700 transition-colors group/link w-fit mt-auto">
               Lees meer <svg class="w-5 h-5 ml-2 group-hover/link:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
             </a>
           </div>
         </div>
 
         <!-- Techniek -->
-        <div class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-          <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
+        <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-techniek">
+          <div class="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
           <div class="aspect-w-16 aspect-h-10 overflow-hidden relative">
-            <img src="./assets/fiets.jpg" alt="Techniek" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <span class="absolute top-4 left-4 z-30 bg-orange-600/90 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Vakmanschap</span>
+            <img src="./assets/metaal.png" alt="Techniek" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-300"></div>
           </div>
           <div class="p-8 flex-grow flex flex-col relative z-20">
-            <h3 class="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-primary transition-colors duration-300">Techniek</h3>
-            <p class="text-slate-600 leading-relaxed mb-6 flex-grow">Steek de handen uit de mouwen. In onze fietsenmakerij en werkplaats leren deelnemers sleutelen, repareren en bouwen met passie voor techniek.</p>
-            <a href="techniek.html" class="inline-flex items-center text-primary font-bold hover:text-primary-light transition-colors group/link w-fit mt-auto">
+            <h3 class="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-orange-600 transition-colors duration-300">Techniek</h3>
+            <p class="text-slate-600 leading-relaxed mb-6 flex-grow">In onze technische afdeling maken we van alles: van terraskachels tot tafels, kunstzinnige objecten en producten op maat/vraag. Zo krijg jij wat je nodig hebt, terwijl deelnemers technische vaardigheden opdoen en verder groeien in een realistische werksetting.</p>
+            <a href="techniek.html" class="inline-flex items-center text-orange-600 font-bold hover:text-orange-700 transition-colors group/link w-fit mt-auto">
               Lees meer <svg class="w-5 h-5 ml-2 group-hover/link:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
             </a>
           </div>
         </div>
 
-        <!-- Beauty salon -->
-        <div class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-          <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
+        <!-- Schoonheidssalon Pr8tig -->
+        <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-beauty">
+          <div class="absolute inset-0 bg-gradient-to-br from-pink-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
           <div class="aspect-w-16 aspect-h-10 overflow-hidden relative">
-            <img src="./assets/salon.png" alt="Beauty salon" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <span class="absolute top-4 left-4 z-30 bg-pink-600/90 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Verzorging</span>
+            <img src="./assets/salon.png" alt="Schoonheidssalon Pr8tig" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-300"></div>
           </div>
           <div class="p-8 flex-grow flex flex-col relative z-20">
-            <h3 class="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-primary transition-colors duration-300">Beauty Salon</h3>
-            <p class="text-slate-600 leading-relaxed mb-6 flex-grow">Verzorging en aandacht voor de mens. Leer de basis van uiterlijke verzorging, klantcontact en creëer een ontspannen sfeer voor anderen.</p>
-            <a href="beauty-salon.html" class="inline-flex items-center text-primary font-bold hover:text-primary-light transition-colors group/link w-fit mt-auto">
+            <h3 class="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-pink-600 transition-colors duration-300">Schoonheidssalon Pr8tig</h3>
+            <p class="text-slate-600 leading-relaxed mb-6 flex-grow">Toe aan een moment voor jezelf? Van nagelverzorging tot gezichtsbehandeling: in onze schoonheidssalon ben je welkom. Voor jou is het ontspanning, voor onze deelnemers een kans om te groeien in hun vak en in het contact met others.</p>
+            <a href="beauty-salon.html" class="inline-flex items-center text-pink-600 font-bold hover:text-pink-700 transition-colors group/link w-fit mt-auto">
+              Lees meer <svg class="w-5 h-5 ml-2 group-hover/link:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- ICT & Multimedia -->
+        <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-ict">
+          <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
+          <div class="aspect-w-16 aspect-h-10 overflow-hidden relative">
+            <span class="absolute top-4 left-4 z-30 bg-blue-600/90 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Digitaal</span>
+            <img src="./assets/ict.jpg" alt="ICT & Multimedia" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-300"></div>
+          </div>
+          <div class="p-8 flex-grow flex flex-col relative z-20">
+            <h3 class="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">ICT & Multimedia</h3>
+            <p class="text-slate-600 leading-relaxed mb-6 flex-grow">Op zoek naar hulp bij video, design, social media of 3D prints? Onze multimedia afdeling denkt creatief met je mee en brengt ideeën tot leven. Terwijl jij werkt aan je zichtbaarheid of een project, ontwikkelen deelnemers hun creatieve talenten.</p>
+            <a href="ict-multimedia.html" class="inline-flex items-center text-blue-600 font-bold hover:text-blue-700 transition-colors group/link w-fit mt-auto">
               Lees meer <svg class="w-5 h-5 ml-2 group-hover/link:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
             </a>
           </div>
         </div>
 
         <!-- Creatief -->
-        <div class="group bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:border-primary/20 hover:shadow-[0_20px_40px_rgb(100,24,76,0.08)] hover:-translate-y-2 transition-all duration-500 flex flex-col relative">
-          <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
-          <div class="aspect-w-16 aspect-h-10 overflow-hidden relative bg-gradient-to-br from-primary/20 to-primary/40 flex items-center justify-center h-64">
+        <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-creatief">
+          <div class="absolute inset-0 bg-gradient-to-br from-violet-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
+          <div class="aspect-w-16 aspect-h-10 overflow-hidden relative bg-gradient-to-br from-violet-600/30 to-purple-800/40 flex items-center justify-center h-64">
+             <span class="absolute top-4 left-4 z-30 bg-violet-600/90 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Expressie</span>
              <svg class="w-24 h-24 text-white opacity-80 group-hover:scale-110 transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
              <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>
           <div class="p-8 flex-grow flex flex-col relative z-20">
-            <h3 class="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-primary transition-colors duration-300">Creatief</h3>
+            <h3 class="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-violet-600 transition-colors duration-300">Creatief</h3>
             <p class="text-slate-600 leading-relaxed mb-6 flex-grow">Geef vorm aan verbeelding. Schilder, knutsel en ontwerp in ons creatieve atelier waar expressie en out-of-the-box denken voorop staan.</p>
-            <a href="creatief.html" class="inline-flex items-center text-primary font-bold hover:text-primary-light transition-colors group/link w-fit mt-auto">
+            <a href="creatief.html" class="inline-flex items-center text-violet-600 font-bold hover:text-violet-700 transition-colors group/link w-fit mt-auto">
               Lees meer <svg class="w-5 h-5 ml-2 group-hover/link:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
             </a>
           </div>
