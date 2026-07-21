@@ -125,8 +125,8 @@ Alle pagina's laden `src/main.js` als ES module. Dit bestand bevat:
 
 - **Taal**: Alle UI-tekst, labels, knoppen en content moeten in het **Nederlands** zijn
 - **Multi-page app**: Dit is géén SPA — elke pagina is een apart HTML-bestand met gedeelde navigatie en footer
-- **Navigatie en footer** worden in elk HTML-bestand herhaald (geen templating engine)
-- Bij aanpassingen aan navigatie of footer: **wijzig alle HTML-bestanden consistent**
+- **Navigatie en footer**: Staan centraal in `src/components/header.html` en `src/components/footer.html`. In alle HTML-pagina's worden ze geladen via `<load src="./src/components/header.html" />` en `<load src="./src/components/footer.html" />` (Vite HTML injection)
+- Bij aanpassingen aan navigatie of footer: **wijzig uitsluitend het betreffende component-bestand in `src/components/`**
 
 ### HTML
 
