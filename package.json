@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "py scripts/compress_images.py || python scripts/compress_images.py",
     "build": "vite build",
     "preview": "vite preview"
   },

@@ -20,7 +20,8 @@ export default defineConfig({
         horeca: 'horeca.html',
         ict_multimedia: 'ict-multimedia.html',
         techniek: 'techniek.html',
-        fietsenmaker: 'fietsenmaker.html'
+        fietsenmaker: 'fietsenmaker.html',
+        werken_bij: 'werken-bij.html'
       }
     }
   }

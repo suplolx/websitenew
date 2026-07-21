@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./src/style.css">
 </head>
 <body class="flex flex-col min-h-screen bg-slate-50 text-slate-800 font-sans selection:bg-primary/20 selection:text-primary">
 
@@ -21,36 +21,46 @@
               alt="Kr8tig Logo" id="header-logo" />
           </a>
         </div>
-        <nav class="hidden md:flex space-x-8 items-center">
+                        <nav class="hidden md:flex space-x-8 items-center">
           <a href="index.html"
             class="nav-link text-white hover:text-primary-light text-xs font-bold tracking-widest transition-colors uppercase">Home</a>
           <a href="afdelingen.html"
             class="nav-link active text-white/80 hover:text-white text-xs font-bold tracking-widest transition-colors uppercase">Afdelingen</a>
           <a href="verwijzers.html"
             class="nav-link text-white/80 hover:text-white text-xs font-bold tracking-widest transition-colors uppercase">Verwijzers</a>
-          <a href="over-ons.html"
-            class="nav-link text-white/80 hover:text-white text-xs font-bold tracking-widest transition-colors uppercase">Over
-            ons</a>
-          <a href="team.html"
-            class="nav-link text-white/80 hover:text-white text-xs font-bold tracking-widest transition-colors uppercase">Ons
-            Team</a>
+          
+          <!-- Dropdown Over ons -->
+          <div class="relative group py-4">
+            <a href="#" class="nav-link text-white/80 hover:text-white text-xs font-bold tracking-widest transition-colors uppercase flex items-center gap-1">
+              <span>Over ons</span>
+              <svg class="w-3 h-3 transition-transform duration-300 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+              </svg>
+            </a>
+            <div class="dropdown-menu">
+              <a href="over-ons.html" class="dropdown-item ">Over Kr8tig</a>
+              <a href="team.html" class="dropdown-item ">Ons Team</a>
+              <a href="werken-bij.html" class="dropdown-item ">Werken bij</a>
+            </div>
+          </div>
+
           <a href="contact.html"
             class="nav-link text-white/80 hover:text-white text-xs font-bold tracking-widest transition-colors uppercase">Contact</a>
 
           <div class="flex items-center space-x-5 ml-4 border-l border-white/20 pl-8 transition-colors duration-500">
-            <a href="#" class="social-icon text-white hover:text-primary-light transition-colors">
+            <a href="https://instagram.com/kr8tig.nl" class="social-icon text-white hover:text-primary-light transition-colors" target="_blank" rel="noopener noreferrer">
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path
                   d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
               </svg>
             </a>
-            <a href="#" class="social-icon text-white hover:text-primary-light transition-colors">
+            <a href="https://nl.linkedin.com/company/kr8tig" class="social-icon text-white hover:text-primary-light transition-colors" target="_blank" rel="noopener noreferrer">
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path
                   d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
               </svg>
             </a>
-            <a href="#" class="social-icon text-white hover:text-primary-light transition-colors">
+            <a href="https://facebook.com/kr8tig.nl" class="social-icon text-white hover:text-primary-light transition-colors" target="_blank" rel="noopener noreferrer">
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path
                   d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-2.221c0-.822.112-1.117.73-1.117h2.628v-4.39h-3.583c-3.972 0-4.775 2.14-4.775 4.476v3.252z" />
@@ -82,13 +92,27 @@
       <img class="h-20 w-auto mx-auto" src="./assets/logo.png" alt="Kr8tig Logo" style="filter: brightness(0) invert(1);" />
     </div>
 
-    <nav class="flex flex-col space-y-6 text-center">
-      <a href="index.html" class="mobile-nav-link">Home</a>
+            <nav class="flex flex-col space-y-6 text-center">
+      <a href="index.html" class="mobile-nav-link ">Home</a>
       <a href="afdelingen.html" class="mobile-nav-link text-primary-light">Afdelingen</a>
-      <a href="verwijzers.html" class="mobile-nav-link">Verwijzers</a>
-      <a href="over-ons.html" class="mobile-nav-link">Over ons</a>
-      <a href="team.html" class="mobile-nav-link">Ons Team</a>
-      <a href="contact.html" class="mobile-nav-link">Contact</a>
+      <a href="verwijzers.html" class="mobile-nav-link ">Verwijzers</a>
+      
+      <!-- Mobile Dropdown Accordion -->
+      <div class="mobile-dropdown w-full flex flex-col items-center">
+        <button type="button" class="mobile-nav-link mobile-dropdown-btn flex items-center gap-2 justify-center w-full focus:outline-none ">
+          <span>Over ons</span>
+          <svg class="w-6 h-6 transition-transform duration-300 mobile-arrow" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="mobile-dropdown-content hidden flex-col space-y-4 pt-4 pb-2 items-center w-full">
+          <a href="over-ons.html" class="mobile-sub-link ">Over Kr8tig</a>
+          <a href="team.html" class="mobile-sub-link ">Ons Team</a>
+          <a href="werken-bij.html" class="mobile-sub-link ">Werken bij</a>
+        </div>
+      </div>
+
+      <a href="contact.html" class="mobile-nav-link ">Contact</a>
     </nav>
 
     <div class="mt-16 flex space-x-8">
@@ -129,7 +153,7 @@
           <div class="absolute inset-0 bg-gradient-to-br from-amber-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
           <a href="bakkerij.html" class="aspect-w-16 aspect-h-10 overflow-hidden relative block">
             <span class="absolute top-4 left-4 z-30 bg-amber-600/90 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Ambacht</span>
-            <img src="./assets/bakkerij.jpg" alt="Bakkerij" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
+            <img src="./assets/afdelingen/bakkerij.jpg" alt="Bakkerij" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-300"></div>
           </a>
           <div class="p-8 flex-grow flex flex-col relative z-20">
@@ -148,7 +172,7 @@
           <div class="absolute inset-0 bg-gradient-to-br from-rose-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
           <a href="horeca.html" class="aspect-w-16 aspect-h-10 overflow-hidden relative block">
             <span class="absolute top-4 left-4 z-30 bg-rose-600/90 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Gastvrijheid</span>
-            <img src="./assets/keuken.jpg" alt="Horeca" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
+            <img src="./assets/afdelingen/keuken.jpg" alt="Horeca" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-300"></div>
           </a>
           <div class="p-8 flex-grow flex flex-col relative z-20">
@@ -167,7 +191,7 @@
           <div class="absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
           <a href="fietsenmaker.html" class="aspect-w-16 aspect-h-10 overflow-hidden relative block">
             <span class="absolute top-4 left-4 z-30 bg-emerald-600/90 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Mobiliteit</span>
-            <img src="./assets/fiets.jpg" alt="Fietsenmaker" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
+            <img src="./assets/afdelingen/fiets.jpg" alt="Fietsenmaker" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-300"></div>
           </a>
           <div class="p-8 flex-grow flex flex-col relative z-20">
@@ -186,7 +210,7 @@
           <div class="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
           <a href="techniek.html" class="aspect-w-16 aspect-h-10 overflow-hidden relative block">
             <span class="absolute top-4 left-4 z-30 bg-orange-600/90 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Vakmanschap</span>
-            <img src="./assets/metaal.png" alt="Techniek" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
+            <img src="./assets/afdelingen/metaal.png" alt="Techniek" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-300"></div>
           </a>
           <div class="p-8 flex-grow flex flex-col relative z-20">
@@ -205,7 +229,7 @@
           <div class="absolute inset-0 bg-gradient-to-br from-pink-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
           <a href="beauty-salon.html" class="aspect-w-16 aspect-h-10 overflow-hidden relative block">
             <span class="absolute top-4 left-4 z-30 bg-pink-600/90 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Verzorging</span>
-            <img src="./assets/salon.png" alt="Schoonheidssalon Pr8tig" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
+            <img src="./assets/afdelingen/salon.png" alt="Schoonheidssalon Pr8tig" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-300"></div>
           </a>
           <div class="p-8 flex-grow flex flex-col relative z-20">
@@ -224,7 +248,7 @@
           <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
           <a href="ict-multimedia.html" class="aspect-w-16 aspect-h-10 overflow-hidden relative block">
             <span class="absolute top-4 left-4 z-30 bg-blue-600/90 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Digitaal</span>
-            <img src="./assets/ict.jpg" alt="ICT & Multimedia" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
+            <img src="./assets/afdelingen/ict.jpg" alt="ICT & Multimedia" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-300"></div>
           </a>
           <div class="p-8 flex-grow flex flex-col relative z-20">
@@ -290,6 +314,8 @@
             <li><a href="afdelingen.html" class="hover:text-white hover:underline transition-colors">Afdelingen</a></li>
             <li><a href="verwijzers.html" class="hover:text-white hover:underline transition-colors">Verwijzers</a></li>
             <li><a href="over-ons.html" class="hover:text-white hover:underline transition-colors">Over ons</a></li>
+            <li><a href="werken-bij.html" class="hover:text-white hover:underline transition-colors">Werken bij</a></li>
+            <li><a href="werken-bij.html" class="hover:text-white hover:underline transition-colors">Werken bij</a></li>
           </ul>
         </div>
       </div>
