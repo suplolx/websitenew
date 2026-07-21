@@ -236,6 +236,30 @@ Alle HTML-pagina's zijn als **multi-page input** geconfigureerd in `vite.config.
 2. Voeg een entry toe aan `build.rollupOptions.input` in `vite.config.js`
 3. Voeg de pagina toe aan de navigatie in **alle** HTML-bestanden
 
+## Git & Samenwerkings-Workflow
+
+Als AI-agent werk je nauw samen met de gebruiker en eventueel andere ontwikkelaars. Volg daarom strikt deze Git workflow:
+
+### 1. Altijd eerst Pullen (Start of Session)
+Voordat je begint met het analyseren van code of het maken van wijzigingen bij de allereerste gebruikersvraag:
+*   Haal **altijd** eerst de nieuwste wijzigingen op van GitHub om merge conflicten te voorkomen:
+    ```bash
+    git pull origin main
+    ```
+
+### 2. Branching Strategie
+*   **Kleine/Directe wijzigingen:** (Bijvoorbeeld: tekstuele wijzigingen, kleine CSS tweaks, bugfixes). Deze mogen direct op de `main` branch worden uitgevoerd.
+*   **Grote/Architecturale wijzigingen:** (Bijvoorbeeld: structuurwijzigingen, nieuwe grote functionaliteiten of ingrijpende refactors).
+    1.  Maak een feature branch aan: `git checkout -b feature/naam-van-wijziging`.
+    2.  Voer de taken uit en commit lokaal.
+    3.  Controleer de build (`npm run build`).
+    4.  Samenvoegen: Schakel terug naar `main` (`git checkout main`), doe een pull (`git pull origin main`), merge de branch (`git merge feature/naam-van-wijziging`) en push het resultaat (`git push origin main`).
+
+### 3. Commits & Pushen
+*   **Commit Berichten:** Gebruik duidelijke, beschrijvende commit-berichten (bij voorkeur Conventional Commits zoals `feat: ...`, `fix: ...`, `refactor: ...`).
+*   **Bestanden toevoegen:** Stage alle actieve wijzigingen (`git add .`), maar let op dat tijdelijke bestanden en build-bestanden (zoals `dist/` en `.firebase/`) uitgesloten blijven via `.gitignore`.
+*   **Pushen:** Push je wijzigingen na afronding direct naar GitHub (`git push origin main`), zodat de code direct beschikbaar is voor andere computers en ontwikkelaars.
+
 ## Contactgegevens (voor content referentie)
 
 - **Organisatie**: Kr8tig
