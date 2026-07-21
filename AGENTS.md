@@ -13,7 +13,7 @@ Dit is de website van **Kr8tig**, een zorgorganisatie in Weert (Limburg) die jon
 
 | Technologie       | Versie / Details                          |
 | ----------------- | ----------------------------------------- |
-| **Build tool**    | Vite 8.x                                  |
+| **Build tool**    | Vite 8.x (`vite-plugin-html-inject`)      |
 | **CSS framework** | Tailwind CSS 4.x (via `@tailwindcss/vite` plugin) |
 | **PostCSS**       | autoprefixer + postcss                    |
 | **Fonts**         | Plus Jakarta Sans, Outfit, Inter (Google Fonts) |
@@ -38,6 +38,9 @@ websitenew/
 ├── team.html               # Het team
 ├── contact.html            # Contactpagina
 ├── src/
+│   ├── components/         # Herbruikbare HTML componenten
+│   │   ├── header.html     # Centrale navigatiebalk & mobiel menu
+│   │   └── footer.html     # Centrale footer
 │   ├── main.js             # Gedeelde JavaScript (navigatie, scroll, formulier)
 │   └── style.css           # Hoofd-stylesheet (Tailwind + custom CSS)
 ├── assets/
