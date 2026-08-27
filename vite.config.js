@@ -47,7 +47,8 @@ export default defineConfig({
         ict_multimedia: 'ict-multimedia.html',
         techniek: 'techniek.html',
         fietsenmaker: 'fietsenmaker.html',
-        werken_bij: 'werken-bij.html'
+        werken_bij: 'werken-bij.html',
+        kapsalon: 'kapsalon.html'
       }
     }
   }
