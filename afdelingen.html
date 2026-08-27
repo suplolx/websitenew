@@ -155,40 +155,52 @@
         </div>
 
         <!-- Kapsalon -->
-        <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-beauty">
-          <div class="absolute inset-0 bg-gradient-to-br from-pink-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
-          <a href="kapsalon.html" class="aspect-w-16 aspect-h-10 overflow-hidden relative block">
-            <span class="absolute top-4 left-4 z-30 bg-pink-700/90 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Haarverzorging</span>
-            <img src="./assets/afdelingen/foto3.png" alt="Kapsalon" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-300"></div>
-          </a>
+        <div class="bg-white rounded-3xl overflow-hidden flex flex-col relative card-beauty opacity-90">
+          <div class="overflow-hidden relative block h-64">
+            <span class="absolute top-4 left-4 z-20 bg-pink-700/80 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Haarverzorging</span>
+            <img src="./assets/afdelingen/foto3.png" alt="Kapsalon" class="w-full h-64 object-cover filter grayscale-[25%]" />
+            <!-- Overlay & Black Bar -->
+            <div class="absolute inset-0 bg-slate-950/60 backdrop-blur-[2px] z-30 flex items-center justify-center">
+              <div class="w-full bg-black/90 py-3 px-4 border-y border-white/15 shadow-xl flex items-center justify-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+                <span class="text-white text-xs sm:text-sm font-extrabold uppercase tracking-widest font-display">Coming soon</span>
+              </div>
+            </div>
+          </div>
           <div class="p-8 flex-grow flex flex-col relative z-20">
-            <h3 class="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-pink-600 transition-colors duration-300">
-              <a href="kapsalon.html">Kapsalon</a>
+            <h3 class="text-2xl font-extrabold text-slate-900 mb-3">
+              Kapsalon
             </h3>
             <p class="text-slate-600 leading-relaxed mb-6 flex-grow">Toe aan een nieuw kapsel of een verzorgend moment voor jezelf? In onze kapsalon ben je welkom voor verschillende haarbehandelingen in een ontspannen omgeving. Terwijl jij plaatsneemt in de stoel, doen deelnemers praktijkervaring op en ontwikkelen zij hun vakvaardigheden en het contact met klanten.</p>
-            <a href="kapsalon.html" class="inline-flex items-center text-pink-600 font-bold hover:text-pink-700 transition-colors group/link w-fit mt-auto">
-              Lees meer <svg class="w-5 h-5 ml-2 group-hover/link:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-            </a>
+            <span class="inline-flex items-center text-slate-400 font-semibold text-sm w-fit mt-auto cursor-default">
+              <svg class="w-4 h-4 mr-1.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              Binnenkort beschikbaar
+            </span>
           </div>
         </div>
 
         <!-- Cre8tive -->
-        <div class="group bg-white rounded-3xl overflow-hidden flex flex-col relative card-creatief">
-          <div class="absolute inset-0 bg-gradient-to-br from-violet-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
-          <a href="creatief.html" class="aspect-w-16 aspect-h-10 overflow-hidden relative bg-gradient-to-br from-violet-600/30 to-purple-800/40 flex items-center justify-center h-64 block">
-             <span class="absolute top-4 left-4 z-30 bg-violet-600/90 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Expressie</span>
-             <svg class="w-24 h-24 text-white opacity-80 group-hover:scale-110 transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
-             <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          </a>
+        <div class="bg-white rounded-3xl overflow-hidden flex flex-col relative card-creatief opacity-90">
+          <div class="overflow-hidden relative bg-gradient-to-br from-violet-600/20 to-purple-800/30 flex items-center justify-center h-64 block">
+            <span class="absolute top-4 left-4 z-20 bg-violet-600/80 text-white text-[10px] card-badge tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-md shadow-md">Expressie</span>
+            <svg class="w-24 h-24 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
+            <!-- Overlay & Black Bar -->
+            <div class="absolute inset-0 bg-slate-950/60 backdrop-blur-[2px] z-30 flex items-center justify-center">
+              <div class="w-full bg-black/90 py-3 px-4 border-y border-white/15 shadow-xl flex items-center justify-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+                <span class="text-white text-xs sm:text-sm font-extrabold uppercase tracking-widest font-display">Coming soon</span>
+              </div>
+            </div>
+          </div>
           <div class="p-8 flex-grow flex flex-col relative z-20">
-            <h3 class="text-2xl font-extrabold text-slate-900 mb-3 group-hover:text-violet-600 transition-colors duration-300">
-              <a href="creatief.html">Cre8tive</a>
+            <h3 class="text-2xl font-extrabold text-slate-900 mb-3">
+              Cre8tive
             </h3>
             <p class="text-slate-600 leading-relaxed mb-6 flex-grow">Op zoek naar een unieke creatieve opdracht, decoratie of product op maat? Bij Cre8tive denken we graag met je mee. Van kleine creatieve producten tot bijzondere opdrachten, zoals decoraties voor evenementen en festivals. Daarbij geven we waar mogelijk ook bestaande en gebruikte materialen een nieuwe bestemming. Zo krijg jij iets unieks en krijgen deelnemers de kans om hun creativiteit en talenten in te zetten voor echte klantopdrachten.</p>
-            <a href="creatief.html" class="inline-flex items-center text-violet-600 font-bold hover:text-violet-700 transition-colors group/link w-fit mt-auto">
-              Lees meer <svg class="w-5 h-5 ml-2 group-hover/link:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-            </a>
+            <span class="inline-flex items-center text-slate-400 font-semibold text-sm w-fit mt-auto cursor-default">
+              <svg class="w-4 h-4 mr-1.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              Binnenkort beschikbaar
+            </span>
           </div>
         </div>
 
