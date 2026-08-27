@@ -1,27 +1,39 @@
-Onze afdelingen
-Binnen onze afdelingen draait het om samenwerken, leren en ontwikkelen. Deelnemers staan hier niet aan de zijkant, maar midden in de praktijk. Samen met begeleiders die vakkennis combineren met aandacht en begrip, bouwen zij stap voor stap aan hun zelfvertrouwen, vaardigheden en toekomst.
-Elke afdeling is een echte werkomgeving. Een plek waar je ziet dat deelnemers groeien door wat ze maken, doen en leren. Tegelijkertijd leveren we producten en diensten waar jij als klant direct iets aan hebt.
+# Onze afdelingen
 
-Bakkerij
-De geur van versgebakken brood en ambachtelijke Limburgse vlaaien komt je al tegemoet. In onze bakkerij wordt met aandacht gewerkt aan eerlijke, smaakvolle producten, en ondertussen leren deelnemers hier het vak in de praktijk. Met jouw aankoop draag je direct bij aan hun ontwikkeling.
- → Lees meer
+Bij Kr8tig komen ondernemen en ontwikkelen samen. Op onze verschillende afdelingen werken deelnemers samen met vakmensen en begeleiders aan echte producten en diensten voor echte klanten. Zo doen zij praktijkervaring op, ontdekken ze hun talenten en ontwikkelen ze vaardigheden die bijdragen aan hun toekomstperspectief.
 
-Horeca
-In ons restaurant ben je welkom voor een heerlijke lunch in een gastvrije omgeving. Terwijl jij aanschuift, werken deelnemers aan hun vaardigheden, hun zelfvertrouwen en hun toekomst.
+Elke afdeling heeft zijn eigen vakgebied en dynamiek. Van bakken, koken en techniek tot beauty, creativiteit en multimedia. Wat alle afdelingen met elkaar verbindt, is dat deelnemers er niet aan de zijlijn staan, maar actief meedoen in de praktijk.
+
+Als klant maak je daar onderdeel van uit. Met een aankoop, opdracht of bezoek krijg je niet alleen een mooi product of goede dienstverlening, maar bied je deelnemers tegelijkertijd de kans om te leren, verantwoordelijkheid te ervaren en trots te zijn op wat zij hebben bereikt.
+
+## Bakkerij
+Versgebakken brood, ambachtelijke Limburgse vlaaien en andere lekkernijen, met aandacht gemaakt in onze eigen bakkerij. Terwijl jij geniet van onze producten, doen deelnemers praktijkervaring op en ontwikkelen zij hun vaardigheden.  
 → Lees meer
 
-Fietsenmaker
-Is je fiets toe aan een reparatie of zoek je een betrouwbare tweedehands fiets? Dan helpen we je graag weer op weg. Ondertussen leren deelnemers hier een waardevol vak en bouwen ze aan hun zelfstandigheid,
+## Horeca
+Kom langs voor een verse lunch, een warme maaltijd of maak gebruik van onze catering. Onze deelnemers werken samen met ervaren professionals aan de bereiding én gastvrijheid.  
 → Lees meer
 
-Techniek
-In onze technische afdeling maken we van alles: van terraskachels tot tafels, kunstzinnige objecten en producten op maat/vraag. Zo krijg jij wat je nodig hebt, terwijl deelnemers technische vaardigheden opdoen en verder groeien in een realistische werksetting..
+## Fietsenmaker
+Van reparaties tot volledig opgeknapte tweedehands fietsen. In onze fietsenwerkplaats krijgen fietsen een tweede leven en krijgen deelnemers de kans om technische en praktische vaardigheden te ontwikkelen.  
 → Lees meer
 
-Schoonheidssalon Pr8tig
-Toe aan een moment voor jezelf? Van nagelverzorging tot gezichtsbehandeling: in onze schoonheidssalon ben je welkom. Voor jou is het ontspanning, voor onze deelnemers een kans om te groeien in hun vak en in het contact met anderen.
+## Techniek
+Van terraskachels en tafelonderstellen tot reparaties, maatwerk en creatieve objecten. Samen met onze deelnemers geven we ideeën én materialen vorm en zoeken we naar praktische en duurzame oplossingen.  
 → Lees meer
 
-Multimedia/ICT
-Op zoek naar hulp bij video, design, social media of 3D prints? Onze multimedia afdeling denkt creatief met je mee en brengt ideeën tot leven. Terwijl jij werkt aan je zichtbaarheid of een project, ontwikkelen deelnemers hun creatieve talenten.
+## Pr8tig Beauty
+Even tijd voor jezelf. Bij Pr8tig Beauty kun je terecht voor verschillende beautybehandelingen in een professionele omgeving waarin onze deelnemers tegelijkertijd praktijkervaring kunnen opdoen.  
+→ Lees meer
+
+## Multimedia/ICT
+Video, fotografie, grafisch ontwerp, social media of 3D-printing? Onze multimedia/ICT-afdeling denkt creatief mee en brengt ideeën tot leven. Echte opdrachten bieden onze deelnemers de kans hun creatieve en digitale talenten verder te ontwikkelen.  
+→ Lees meer
+
+## Kapsalon
+Toe aan een nieuw kapsel of een verzorgend moment voor jezelf? In onze kapsalon ben je welkom voor verschillende haarbehandelingen in een ontspannen omgeving. Terwijl jij plaatsneemt in de stoel, doen deelnemers praktijkervaring op en ontwikkelen zij hun vakvaardigheden en het contact met klanten.  
+→ Lees meer
+
+## Cre8tive
+Op zoek naar een unieke creatieve opdracht, decoratie of product op maat? Bij Cre8tive denken we graag met je mee. Van kleine creatieve producten tot bijzondere opdrachten, zoals decoraties voor evenementen en festivals. Daarbij geven we waar mogelijk ook bestaande en gebruikte materialen een nieuwe bestemming. Zo krijg jij iets unieks en krijgen deelnemers de kans om hun creativiteit en talenten in te zetten voor echte klantopdrachten.  
 → Lees meer

@@ -1,17 +1,40 @@
-Maatwerk Techniek in Weert
-Op zoek naar maatwerk van metaal of hout, of heb je iets dat gerepareerd moet worden In de techniekruimte van Kr8tig in Weert werken we dagelijks aan uiteenlopende projecten van het maken van terraskachels en tafelonderstellen tot reparaties, decoratieve en kunstzinnige uitingen en praktische oplossingen.
-Materiaal en mensen krijgen hier een tweede kans
-In de techniekruimte draait alles om doen. Er wordt gemeten, gelast, geslepen en opgebouwd. Producten liggen niet netjes op een plank, maar zijn continu in ontwikkeling iets wordt aangepast, getest of opnieuw in elkaar gezet. Het is een plek waar ideeën vorm krijgen door ermee aan de slag te gaan.
-Waar veel wordt weggegooid, zoeken wij naar wat nog bruikbaar is. Kan iets gerepareerd worden Kunnen onderdelen opnieuw worden ingezet Of ontstaat er iets compleet nieuws uit bestaand materiaal Recycling en circulariteit gaan hand in hand op deze afdeling. 
-Tegelijkertijd werken deelnemers hier aan hun eigen ontwikkeling. Veel van hen zijn ergens anders vastgelopen. In de techniekruimte krijgen ze de kans om opnieuw te beginnen, in een duidelijke en gestructureerde werkomgeving. Ze leren veilig werken met gereedschappen en materialen, maar ook plannen, samenwerken en doorzetten wanneer iets niet meteen lukt. 
-Wat ze maken gaat echt naar buiten. Hun unieke producten gaan naar klanten, bedrijven of andere plekken. Dat zorgt voor verantwoordelijkheid, trots en motivatie, omdat hun werk er echt toe doet. De meeste voldoening wordt natuurlijk gehaald uit weer een tevreden klant. 
-Van idee naar uitvoering
-In de werkplaats werken deelnemers samen met begeleiders aan verschillende opdrachten. Soms gaat het om concrete producten, zoals
-Terraskachels en terrashaarden
-Tafelonderstellen
-Custom maatwerk constructies
-Decoratieve en kunstzinnige objecten
-Maar vaak begint het met een vraag, schets of idee. Samen wordt gekeken wat er mogelijk is, en dat is vaak meer dan in eerste instantie gedacht wordt, uiteindelijk met als resultaat een uniek product.                     Daarnaast kunt u bij Kr8tig ook terecht voor reparatie en herstelwerkzaamheden. Zo kan een product dat ogenschijnlijk defect lijkt nog een ronde mee. 
-Kom langs bij techniek van Kr8tig in Weert
-Benieuwd wat er hier gemaakt wordt of wat er mogelijk is Je bent welkom bij Kr8tig aan de Parallelweg 169 in Weert.
-Loop gerust binnen en ervaar zelf hoe hier elke dag wordt gewerkt aan nieuwe producten én nieuwe kansen.
+# Maatwerk Techniek in Weert
+
+Heb je een idee dat je wilt laten uitvoeren, zoek je maatwerk in metaal of heb je iets dat gerepareerd kan worden? In de techniekwerkplaats van Kr8tig in Weert denken we graag met je mee. Van terraskachels en tafelonderstellen tot reparaties, constructies en unieke decoratieve objecten: veel begint bij een vraag, schets of idee.
+
+## Van idee naar uitvoering
+
+In onze werkplaats wordt dagelijks gemeten, gelast, geslepen, gemonteerd en gebouwd. We werken aan eigen producten, maar ook aan opdrachten van particulieren, bedrijven en organisaties.
+
+Heb je een specifieke wens? Samen bekijken we wat technisch mogelijk is en hoe we jouw idee kunnen vertalen naar een passend eindproduct. Juist maatwerk biedt ruimte voor creatieve oplossingen en maakt dat geen opdracht hetzelfde hoeft te zijn.
+
+Je kunt bij ons onder andere terecht voor:
+
+- Terraskachels en terrashaarden
+- Tafelonderstellen
+- Maatwerkconstructies in metaal
+- Decoratieve en kunstzinnige objecten
+- Reparatie- en herstelwerkzaamheden
+- Unieke opdrachten op aanvraag
+
+## Maken, herstellen en hergebruiken
+
+Niet alles wat beschadigd of afgedankt is, hoeft vervangen te worden. Waar mogelijk kijken we of een product gerepareerd kan worden, onderdelen opnieuw gebruikt kunnen worden of bestaand materiaal een compleet nieuwe bestemming kan krijgen.
+
+Zo komen techniek, creativiteit en circulariteit samen. Van een praktische reparatie tot een uniek object gemaakt van hergebruikte materialen: we kijken graag naar wat er nog wél mogelijk is.
+
+## Echte opdrachten, echte ontwikkeling
+
+Deelnemers werken samen met onze vakmensen en begeleiders aan de opdrachten die in de werkplaats binnenkomen. Voor jou als klant betekent dit een product of oplossing die met aandacht wordt gemaakt. Voor onze deelnemers zijn deze echte opdrachten een waardevolle kans om praktijkervaring op te doen.
+
+Ze leren veilig werken met verschillende gereedschappen en materialen, ontwikkelen technische vaardigheden en oefenen tegelijkertijd met plannen, samenwerken, doorzetten en verantwoordelijkheid nemen. Wat zij maken wordt daadwerkelijk gebruikt door een klant. Dat maakt het resultaat tastbaar en geeft betekenis aan het werk dat zij doen.
+
+Met jouw opdracht laat je dus niet alleen iets maken of herstellen, maar bied je deelnemers ook de kans om hun talenten te ontdekken en verder te ontwikkelen.
+
+## Heb je een idee of opdracht?
+
+Benieuwd wat we voor je kunnen maken, repareren of bedenken? Neem je idee, vraag of voorbeeld gerust mee. We kijken graag samen naar de mogelijkheden.
+
+Je vindt de techniekwerkplaats van Kr8tig aan de Parallelweg 169 in Weert. Voor vragen of informatie kun je contact opnemen via ???@kr8tig.nl.
+
+Openingstijden: maandag t/m vrijdag van 09.00 tot 16.00 uur.

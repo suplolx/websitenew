@@ -1,17 +1,32 @@
-Bakkerij in Weert
-Weert,  de vlaaienstad: Je ruikt het al voordat je binnen bent: versgebakken brood, warme Limburgse vlaai en iets zoets uit de oven. Aan de Parallelweg 168 in Weert vind je bakkerij ‘Broodnodig’ van Kr8tig. Een plek waar elke dag gewerkt wordt aan ambachtelijke producten én aan de ontwikkeling van deelnemers.
-Niet zomaar en bakkerij
-In onze bakkerij zie je deelnemers aan het werk. De één haalt brood uit de oven, de ander werkt met aandacht een vlaai af en weer een ander helpt klanten met hun bestelling. Tussen al die werkzaamheden door loopt altijd een vakkundige begeleider mee. Die helpt, legt uit en stuurt bij waar nodig. Het bijzondere is dat je dit als bezoeker gewoon ziet. Alles gebeurt in een open ruimte, waar je van dichtbij meemaakt hoe producten worden gemaakt. 
-De bakkerij staat niet op zichzelf. In het gebouw van Kr8tig gebeurt van alles: horeca, techniek, schoonheidssalon en creatieve werkplekken. Overal werken deelnemers die ergens anders zijn vastgelopen. Hier krijgen ze de ruimte om opnieuw te beginnen en stap voor stap te ontdekken wat ze wél kunnen. Met elke aankoop in onze bakkerij draag je direct bij aan hun ontwikkeling.
-Ons assortiment
-In onze bakkerij in Weert proef je het ambacht terug in elk product. Je vindt hier onder andere:
+# Bakkerij in Weert
 
-Dagvers gebakken brood
-Limburgse vlaaien en taarten
-Koekjes, cakes en wafels
-Seizoensspecialiteiten
+Je ruikt het al voordat je binnen bent: versgebakken brood, warme Limburgse vlaai en iets lekkers uit de oven. Aan de Parallelweg 168 in Weert vind je Bakkerij Broodnodig van Kr8tig. Een ambachtelijke bakkerij waar je terechtkunt voor dagvers brood, vlaaien, taarten en andere lekkernijen.
 
-Bekijk hier ons volledige assortiment en de prijslijst.
-Kom langs in Weert of bestel vooraf
-Je bent welkom in onze bakkerij in Weert. Loop gerust binnen, kijk rond en ervaar wat hier elke dag wordt gemaakt. Wil je iets bestellen? Stuur dan minimaal één werkdag van tevoren een e-mail naar bestellenbakkerij@kr8tig.nl. Wij zijn geopend van maandag t/m vrijdag van 09.00 tot 16.00 uur.
+## Niet zomaar een bakkerij
 
+In onze open bakkerij kun je van dichtbij zien hoe onze producten worden gemaakt. Deelnemers werken samen met onze vakmensen aan het hele proces: van voorbereiden en bakken tot het afwerken van producten en helpen van klanten.
+
+Voor jou betekent dat verse producten die met aandacht worden gemaakt. Voor onze deelnemers betekent het veel meer. Zij doen praktijkervaring op in een echte werkomgeving, leren samenwerken en verantwoordelijkheid nemen en ontwikkelen stap voor stap hun vaardigheden en zelfvertrouwen.
+
+De bakkerij is één van de praktijkgerichte afdelingen van Kr8tig. Onder hetzelfde dak vind je onder andere onze horeca, fietsenwerkplaats, techniek, beauty, kapsalon, Cre8tive en multimedia/ICT. Zo creëren we een omgeving waarin deelnemers kunnen ontdekken waar hun talenten liggen en kunnen werken aan hun toekomstperspectief.
+
+Met iedere aankoop bij Broodnodig draag je daar direct aan bij.
+
+## Ons assortiment
+
+In onze bakkerij proef je het ambacht terug in een breed assortiment. Je kunt bij ons onder andere terecht voor:
+
+- Dagvers gebakken brood
+- Limburgse vlaaien en taarten
+- Koekjes, cakes en wafels
+- Seizoensspecialiteiten
+
+Bekijk hier ons volledige assortiment en de actuele prijslijst.
+
+## Kom langs of bestel vooraf
+
+Zin in vers brood, een Limburgse vlaai of iets lekkers? Loop gerust binnen bij onze bakkerij aan de Parallelweg 168 in Weert. Je bent van harte welkom om rond te kijken en te zien wat er iedere dag wordt gemaakt.
+
+Wil je zeker weten dat jouw bestelling klaarstaat? Bestel dan minimaal één werkdag van tevoren via bestellenbakkerij@kr8tig.nl.
+
+Openingstijden: maandag t/m vrijdag van 09.00 tot 16.00 uur.
