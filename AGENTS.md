@@ -39,6 +39,7 @@ websitenew/
 ├── contact.html            # Contactpagina
 ├── src/
 │   ├── components/         # Herbruikbare HTML componenten
+│   │   ├── head-common.html # Centrale head-tags (meta, fonts, favicons, stylesheet link)
 │   │   ├── header.html     # Centrale navigatiebalk & mobiel menu
 │   │   └── footer.html     # Centrale footer
 │   ├── main.js             # Gedeelde JavaScript (navigatie, scroll, formulier)
@@ -127,14 +128,18 @@ Alle pagina's laden `src/main.js` als ES module. Dit bestand bevat:
 ### Algemeen
 
 - **Taal**: Alle UI-tekst, labels, knoppen en content moeten in het **Nederlands** zijn
-- **Multi-page app**: Dit is géén SPA — elke pagina is een apart HTML-bestand met gedeelde navigatie en footer
-- **Navigatie en footer**: Staan centraal in `src/components/header.html` en `src/components/footer.html`. In alle HTML-pagina's worden ze geladen via `<load src="./src/components/header.html" />` en `<load src="./src/components/footer.html" />` (Vite HTML injection)
-- Bij aanpassingen aan navigatie of footer: **wijzig uitsluitend het betreffende component-bestand in `src/components/`**
+- **Multi-page app**: Dit is géén SPA — elke pagina is een apart HTML-bestand met gedeelde head, navigatie en footer
+- **Centrale componenten**: Staan in `src/components/` en worden via Vite HTML injection geladen:
+  - `src/components/head-common.html`: Centrale `<head>` tags (meta charset/viewport, Google Fonts, favicons, stylesheet link). Geladen via `<load src="./src/components/head-common.html" />` binnen `<head>`.
+  - `src/components/header.html`: Centrale navigatiebalk & mobiel menu, geladen via `<load src="./src/components/header.html" />`.
+  - `src/components/footer.html`: Centrale footer, geladen via `<load src="./src/components/footer.html" />`.
+- Bij aanpassingen aan meta tags, favicons, fonts, navigatie of footer: **wijzig uitsluitend het betreffende component-bestand in `src/components/`**
 
 ### HTML
 
 - Gebruik `lang="nl"` op het `<html>` element
-- Elke pagina importeert `./src/style.css` via `<link>` en `./src/main.js` via `<script type="module">`
+- Elke pagina heeft een eigen `<title>` en importeert `./src/components/head-common.html` via `<load src="..." />`
+- Elke pagina importeert `./src/main.js` via `<script type="module">`
 - Semantische HTML5-elementen: `<header>`, `<section>`, `<footer>`, `<nav>`
 - Pagina's met een full-screen hero-sectie gebruiken class `relative h-screen`
 - Subpagina's zonder hero gebruiken een `pt-32` spacer na de header
