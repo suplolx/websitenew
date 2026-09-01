@@ -243,6 +243,12 @@ section.relative.h-screen h1 span.text-primary {
   text-shadow: 0 0 50px rgba(236, 72, 153, 0.15) !important;
 }
 
+.text-gold {
+  color: #d4af37 !important;
+  -webkit-text-fill-color: #d4af37 !important;
+  -webkit-text-stroke: 0px transparent !important;
+}
+
 section.relative.h-screen p.mt-4 {
   font-style: normal !important;
   font-weight: 500 !important;

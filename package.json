@@ -7,7 +7,8 @@
     "dev": "vite",
     "prebuild": "py scripts/compress_images.py || python scripts/compress_images.py",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "firebase.cmd deploy"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.4",

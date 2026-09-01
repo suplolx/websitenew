@@ -213,9 +213,9 @@ npm run preview
 firebase deploy
 ```
 
-### Windows/PowerShell (Fallback) Workflow
+### Windows/PowerShell Workflow
 
-Als de bovenstaande opdrachten falen door permissie/beveiligingsfouten (`SecurityError` of `UnauthorizedAccess` voor script-uitvoering):
+Als PowerShell script execution policy `.ps1` blokkeert, gebruik de `.cmd` varianten:
 
 ```bash
 # Ontwikkelserver starten
@@ -227,8 +227,10 @@ npm.cmd run build
 # Build lokaal bekijken
 npm.cmd run preview
 
-# Deployen naar Firebase Hosting (gebruik npx.cmd met -p firebase-tools om de cli aan te roepen)
-npx.cmd -p firebase-tools firebase deploy
+# Deployen naar Firebase Hosting (firebase-tools is globaal geïnstalleerd)
+firebase.cmd deploy
+# Of alternatief via npm:
+npm.cmd run deploy
 ```
 
 ### Vite Build Configuratie
