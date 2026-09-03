@@ -28,10 +28,25 @@ function htmlInjectPlugin() {
   }
 }
 
+function copyAssetsPlugin() {
+  return {
+    name: 'copy-assets-plugin',
+    closeBundle() {
+      const srcDir = path.resolve('assets/files');
+      const destDir = path.resolve('dist/assets/files');
+      if (fs.existsSync(srcDir)) {
+        fs.mkdirSync(destDir, { recursive: true });
+        fs.cpSync(srcDir, destDir, { recursive: true });
+      }
+    }
+  }
+}
+
 export default defineConfig({
   plugins: [
     tailwindcss(),
     htmlInjectPlugin(),
+    copyAssetsPlugin(),
   ],
   build: {
     rollupOptions: {
