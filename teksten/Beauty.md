@@ -29,6 +29,6 @@ Ben je toe aan een beautybehandeling of wil je weten wat we voor je kunnen betek
 
 Je vindt Pr8tig Beauty bij Kr8tig aan de Parallelweg 168 in Weert.
 
-Voor afspraken of informatie kun je contact opnemen via n.hendrikx@kr8tig.nl.
+Voor afspraken of informatie kun je bellen of appen via 06 19402211.
 
 Openingstijden: dinsdag t/m vrijdag van 09.00 tot 16.00 uur.
