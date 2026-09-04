@@ -8,7 +8,7 @@
     "prebuild": "py scripts/compress_images.py || python scripts/compress_images.py",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "ssh root@45.10.16.142 \"cd /var/www/source && bash deploy.sh\""
+    "deploy": "bash deploy.sh"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.4",
