@@ -30,7 +30,7 @@ Even tijd voor jezelf. Bij Pr8tig Beauty kun je terecht voor verschillende beaut
 Video, fotografie, grafisch ontwerp, social media of 3D-printing? Onze multimedia/ICT-afdeling denkt creatief mee en brengt ideeën tot leven. Echte opdrachten bieden onze deelnemers de kans hun creatieve en digitale talenten verder te ontwikkelen.  
 → Lees meer
 
-## Kapsalon
+## Pr8tig Hair
 Toe aan een nieuw kapsel of een verzorgend moment voor jezelf? In onze kapsalon ben je welkom voor verschillende haarbehandelingen in een ontspannen omgeving. Terwijl jij plaatsneemt in de stoel, doen deelnemers praktijkervaring op en ontwikkelen zij hun vakvaardigheden en het contact met klanten.  
 → Lees meer
 

@@ -7,7 +7,7 @@ Dit is de website van **Kr8tig**, een zorgorganisatie in Weert (Limburg) die jon
 - **Doel**: Informatieve bedrijfswebsite voor een zorginstelling
 - **Doelgroep**: Verwijzers (gemeenten, zorginstellingen), bezoekers, potentiële deelnemers en hun omgeving
 - **Taal**: Alle content is in het **Nederlands**
-- **Firebase project**: `kr8tig-9fa31`
+- **Hosting**: Ubuntu VPS (`45.10.16.142`) met Nginx & Let's Encrypt SSL (`https://kr8tig.nl`)
 
 ## Tech Stack
 
@@ -17,7 +17,7 @@ Dit is de website van **Kr8tig**, een zorgorganisatie in Weert (Limburg) die jon
 | **CSS framework** | Tailwind CSS 4.x (via `@tailwindcss/vite` plugin) |
 | **PostCSS**       | autoprefixer + postcss                    |
 | **Fonts**         | Plus Jakarta Sans, Outfit, Inter (Google Fonts) |
-| **Hosting**       | Firebase Hosting (`dist/` directory)       |
+| **Hosting**       | Ubuntu VPS met Nginx (`/var/www/kr8tig`)  |
 | **Module type**   | ES Modules (`"type": "module"`)           |
 
 ## Projectstructuur
@@ -72,8 +72,6 @@ websitenew/
 │   ├── favicon.svg
 │   └── icons.svg
 ├── vite.config.js          # Vite configuratie met multi-page input
-├── firebase.json           # Firebase Hosting configuratie
-├── .firebaserc             # Firebase project koppeling
 └── package.json
 ```
 
@@ -200,42 +198,25 @@ De pagina `werken-bij.html` toont actieve vacatures of een lege status als er ge
 
 ## Build & Deployment
 
-Op Windows-systemen waar de PowerShell script execution policy is ingeschakeld (wat standaard `.ps1` bestanden van npm/npx/firebase blokkeert), moeten de `.cmd` varianten en specifieke pakket-definities worden gebruikt.
+De website draait op een Ubuntu VPS met Nginx.
 
-### Standaard Workflow
+### Lokale Ontwikkeling
 
 ```bash
-# Ontwikkelserver starten
+# Ontwikkelserver starten (Windows PowerShell: npm.cmd)
 npm run dev
 
-# Productie-build genereren (comprimeert eerst afbeeldingen via compress_images.py en bouwt daarna naar dist/)
+# Productie-build genereren en lokaal testen
 npm run build
-
-# Build lokaal bekijken
 npm run preview
-
-# Deployen naar Firebase Hosting
-firebase deploy
 ```
 
-### Windows/PowerShell Workflow
+### Wijzigingen Live Zetten op de VPS
 
-Als PowerShell script execution policy `.ps1` blokkeert, gebruik de `.cmd` varianten:
+Na het pushen van wijzigingen naar GitHub (`git push origin main`), log in op de VPS via SSH en voer uit:
 
 ```bash
-# Ontwikkelserver starten
-npm.cmd run dev
-
-# Productie-build genereren
-npm.cmd run build
-
-# Build lokaal bekijken
-npm.cmd run preview
-
-# Deployen naar Firebase Hosting (firebase-tools is globaal geïnstalleerd)
-firebase.cmd deploy
-# Of alternatief via npm:
-npm.cmd run deploy
+cd /var/www/source && git pull && npm run build && cp -r dist/* /var/www/kr8tig/
 ```
 
 ### Vite Build Configuratie
@@ -267,7 +248,7 @@ Voordat je begint met het analyseren van code of het maken van wijzigingen bij d
 
 ### 3. Commits & Pushen
 *   **Commit Berichten:** Gebruik duidelijke, beschrijvende commit-berichten (bij voorkeur Conventional Commits zoals `feat: ...`, `fix: ...`, `refactor: ...`).
-*   **Bestanden toevoegen:** Stage alle actieve wijzigingen (`git add .`), maar let op dat tijdelijke bestanden en build-bestanden (zoals `dist/` en `.firebase/`) uitgesloten blijven via `.gitignore`.
+*   **Bestanden toevoegen:** Stage alle actieve wijzigingen (`git add .`), maar let op dat tijdelijke bestanden en build-bestanden (zoals `dist/`) uitgesloten blijven via `.gitignore`.
 *   **Pushen:** Push je wijzigingen na afronding direct naar GitHub (`git push origin main`), zodat de code direct beschikbaar is voor andere computers en ontwikkelaars.
 
 ## Contactgegevens (voor content referentie)

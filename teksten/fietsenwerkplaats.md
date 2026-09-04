@@ -34,4 +34,4 @@ Heeft je fiets onderhoud of een reparatie nodig, wil je een tweedehands fiets be
 
 Voor vragen of informatie kun je contact opnemen via j.neven@kr8tig.nl.
 
-Openingstijden: dinsdag t/m vrijdag van 09.00 tot 16.00 uur.
+Openingstijden: dinsdag, donderdag en vrijdag van 09.00 tot 16.00 uur. Woensdag van 09.00 tot 12.00 uur.

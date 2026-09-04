@@ -38,6 +38,6 @@ Wil je een video laten maken, heb je ondersteuning nodig bij een ontwerp of zoek
 
 Je vindt I-Create, de multimedia-afdeling van Kr8tig, aan de Parallelweg 169 in Weert.
 
-Voor vragen of informatie kun je contact opnemen via ???@kr8tig.nl.
+Voor vragen of informatie kun je contact opnemen via w.pex@kr8tig.nl.
 
 Openingstijden: maandag t/m donderdag van 09.00 tot 16.00 uur.

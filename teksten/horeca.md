@@ -20,6 +20,7 @@ We werken niet met een vaste kaart. Ons aanbod wisselt en wordt dagelijks vers b
 - Catering, zoals lunches, soepen en borrelplanken
 - Seizoensspecials en pakketten
 - Vergaderlunches op onze locatie aan de Parallelweg 168
+- Iedere donderdag een wisselend menu voor een vaste prijs in ons restaurant.
 
 Heb je een specifieke wens of wil je weten wat er mogelijk is? Neem gerust contact met ons op.
 

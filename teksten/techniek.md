@@ -35,6 +35,6 @@ Met jouw opdracht laat je dus niet alleen iets maken of herstellen, maar bied je
 
 Benieuwd wat we voor je kunnen maken, repareren of bedenken? Neem je idee, vraag of voorbeeld gerust mee. We kijken graag samen naar de mogelijkheden.
 
-Je vindt de techniekwerkplaats van Kr8tig aan de Parallelweg 169 in Weert. Voor vragen of informatie kun je contact opnemen via ???@kr8tig.nl.
+Je vindt de techniekwerkplaats van Kr8tig aan de Parallelweg 169 in Weert. Voor vragen of informatie kun je contact opnemen via info@kr8tig.nl.
 
 Openingstijden: maandag t/m vrijdag van 09.00 tot 16.00 uur.
