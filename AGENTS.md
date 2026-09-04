@@ -213,11 +213,20 @@ npm run preview
 
 ### Wijzigingen Live Zetten op de VPS
 
-Na het pushen van wijzigingen naar GitHub (`git push origin main`), log in op de VPS via SSH en voer uit:
+Na het pushen van wijzigingen naar GitHub (`git push origin main`):
 
+**Optie 1 (Vanaf je lokale computer):**
 ```bash
-cd /var/www/source && git pull && npm run build && cp -r dist/* /var/www/kr8tig/
+npm run deploy
 ```
+*(Vereist dat je SSH-sleutel geautoriseerd is op de VPS).*
+
+**Optie 2 (Direct op de VPS via SSH):**
+Log in via SSH (`ssh root@45.10.16.142`) en voer uit:
+```bash
+cd /var/www/source && bash deploy.sh
+```
+*(Of direct het volledige inline commando: `cd /var/www/source && git pull && npm run build && cp -r dist/* /var/www/kr8tig/`)*
 
 ### Vite Build Configuratie
 
