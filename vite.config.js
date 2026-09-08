@@ -42,10 +42,25 @@ function copyAssetsPlugin() {
   }
 }
 
+function cleanUrlsPlugin() {
+  return {
+    name: 'clean-urls-plugin',
+    transformIndexHtml: {
+      order: 'post',
+      handler(html) {
+        return html
+          .replace(/\bhref=(["'])index\.html\1/gi, 'href="/"')
+          .replace(/\bhref=(["'])([a-z0-9-]+)\.html\1/gi, 'href="/$2"');
+      }
+    }
+  }
+}
+
 export default defineConfig({
   plugins: [
     tailwindcss(),
     htmlInjectPlugin(),
+    cleanUrlsPlugin(),
     copyAssetsPlugin(),
   ],
   build: {
