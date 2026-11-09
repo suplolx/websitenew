@@ -6,7 +6,9 @@ const applyTheme = (theme) => {
   const dark = theme === 'dark';
   document.documentElement.dataset.theme = dark ? 'dark' : 'light';
   document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
-  themeToggle?.setAttribute('aria-checked', String(dark));
+  const label = dark ? 'Lichte modus inschakelen' : 'Donkere modus inschakelen';
+  themeToggle?.setAttribute('aria-label', label);
+  themeToggle?.setAttribute('title', label);
 };
 
 if (themeToggle) {
