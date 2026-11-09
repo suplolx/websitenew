@@ -740,3 +740,124 @@ footer.bg-slate-900 a:hover {
 .mobile-sub-link:hover, .mobile-sub-link.active {
   color: #ff4fb8;
 }
+
+/* Theme switch shared by desktop and mobile navigation. */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.5rem;
+  border-radius: 999px;
+  color: white;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+.theme-toggle[hidden] { display: none; }
+.theme-toggle:focus-visible { outline: 3px solid #f9a8d4; outline-offset: 3px; }
+header.subpage-nav .theme-toggle,
+header.scrolled .theme-toggle { color: #334155; }
+.theme-toggle-track {
+  display: inline-flex;
+  align-items: center;
+  width: 2.5rem;
+  height: 1.5rem;
+  padding: 3px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  background: rgb(148 163 184 / 20%);
+}
+.theme-toggle-thumb {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: currentColor;
+  transition: transform 0.2s ease;
+}
+.theme-toggle[aria-checked="true"] .theme-toggle-track { background: var(--color-primary); border-color: #f0abcf; }
+.theme-toggle[aria-checked="true"] .theme-toggle-thumb { transform: translateX(1rem); background: #fff; }
+@media (max-width: 359px) { .theme-toggle-label { display: none; } }
+
+/* Scoped overrides keep the original light palette and brand/button colors intact. */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-page: #120f16;
+  --surface-card: #201a25;
+  --surface-muted: #292130;
+  --theme-border: #46394f;
+  --theme-text: #f5f0f7;
+  --theme-muted: #c7bbce;
+  --theme-accent: #f0abcf;
+}
+:root[data-theme="dark"] body {
+  background-color: var(--surface-page);
+  color: var(--theme-text);
+}
+:root[data-theme="dark"] body :is(.bg-white, .bg-white\/50, .bg-white\/70) {
+  background: var(--surface-card) !important;
+}
+:root[data-theme="dark"] body :is(.bg-slate-50, .bg-slate-50\/40, .bg-slate-100, .bg-slate-200, .bg-pink-50, .bg-pink-100) {
+  background: var(--surface-muted) !important;
+}
+:root[data-theme="dark"] body section.bg-slate-100 {
+  background: linear-gradient(180deg, var(--surface-page), var(--surface-muted)) !important;
+  border-bottom-color: var(--theme-border) !important;
+}
+:root[data-theme="dark"] body :is(.text-slate-800, .text-slate-900, .text-slate-950),
+:root[data-theme="dark"] body section.bg-slate-100 h1 {
+  color: var(--theme-text) !important;
+}
+:root[data-theme="dark"] body :is(.text-slate-500, .text-slate-600, .text-slate-700) {
+  color: var(--theme-muted) !important;
+}
+:root[data-theme="dark"] body :is(.border-slate-200, .border-slate-200\/60, .border-slate-200\/80, .border-pink-200\/80),
+:root[data-theme="dark"] body .group.bg-white {
+  border-color: var(--theme-border) !important;
+}
+/* Keep the colored department borders visible. */
+
+:root[data-theme="dark"] body .group.bg-white.card-bakkerij { border-top-color: #d97706 !important; }
+:root[data-theme="dark"] body .group.bg-white.card-horeca { border-top-color: #e11d48 !important; }
+:root[data-theme="dark"] body .group.bg-white.card-ict { border-top-color: #2563eb !important; }
+:root[data-theme="dark"] body .group.bg-white.card-techniek { border-top-color: #ea580c !important; }
+:root[data-theme="dark"] body .group.bg-white.card-beauty { border-top-color: #db2777 !important; }
+:root[data-theme="dark"] body .group.bg-white.card-creatief { border-top-color: #7c3aed !important; }
+:root[data-theme="dark"] body .group.bg-white.card-primary { border-top-color: var(--color-primary) !important; }
+:root[data-theme="dark"] body :is(.text-primary, .text-primary-light, .bg-primary\/10),
+:root[data-theme="dark"] body .inline-flex.items-center.text-primary.font-bold {
+  color: var(--theme-accent) !important;
+}
+:root[data-theme="dark"] body .bg-primary\/10 { background-color: #402438 !important; border-color: #69425c !important; }
+:root[data-theme="dark"] body .text-amber-700 { color: #fcd34d !important; }
+:root[data-theme="dark"] body .text-rose-700 { color: #fda4af !important; }
+:root[data-theme="dark"] body .text-blue-700 { color: #93c5fd !important; }
+:root[data-theme="dark"] body .text-orange-700 { color: #fdba74 !important; }
+:root[data-theme="dark"] body .text-pink-700 { color: #f9a8d4 !important; }
+:root[data-theme="dark"] body .text-violet-700 { color: #c4b5fd !important; }
+:root[data-theme="dark"] body header#main-header:is(.scrolled, .subpage-nav) {
+  background: rgb(25 19 30 / 95%) !important;
+  border-bottom-color: var(--theme-border) !important;
+}
+:root[data-theme="dark"] body header :is(.nav-link, .social-icon, .mobile-btn, .theme-toggle) {
+  color: var(--theme-text) !important;
+}
+:root[data-theme="dark"] body header :is(.nav-link, .social-icon):hover { color: var(--theme-accent) !important; }
+:root[data-theme="dark"] body header img#header-logo { filter: brightness(0) invert(1); }
+:root[data-theme="dark"] body header .border-l { border-left-color: var(--theme-border) !important; }
+:root[data-theme="dark"] body .dropdown-menu { background: var(--surface-card); border-color: var(--theme-border); }
+:root[data-theme="dark"] body .dropdown-item { color: var(--theme-text) !important; }
+:root[data-theme="dark"] body .dropdown-item:is(:hover, .active) { color: var(--theme-accent) !important; background: var(--surface-muted); }
+:root[data-theme="dark"] body :is(input, select, textarea) { color: var(--theme-text); }
+:root[data-theme="dark"] body :is(input, textarea)::placeholder { color: #b3a4bc; }
+:root[data-theme="dark"] body :is(input, select, textarea):focus { background: var(--surface-card) !important; outline-color: var(--theme-accent); }
+:root[data-theme="dark"] body .flex.items-center.gap-4.mb-10 .h-px { background-color: var(--theme-border) !important; }
+:root[data-theme="dark"] ::selection { background: #791b5c; color: #fff; }
+/* Components with their own light-mode background declarations. */
+:root[data-theme="dark"] body :is(.mt-12.bg-slate-50.p-8.rounded-2xl, .mt-12.bg-slate-50.p-8.rounded-3xl, .bg-slate-50.p-8.rounded-lg.border-l-4.border-primary) {
+  background: var(--surface-card) !important;
+  border-top-color: var(--theme-border) !important;
+  border-right-color: var(--theme-border) !important;
+  border-bottom-color: var(--theme-border) !important;
+}

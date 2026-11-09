@@ -1,5 +1,29 @@
 // Project styles are loaded via link tag in HTML
 
+// Shared theme switch; a saved preference applies to every page.
+const themeToggle = document.querySelector('.theme-toggle');
+const applyTheme = (theme) => {
+  const dark = theme === 'dark';
+  document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+  document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
+  themeToggle?.setAttribute('aria-checked', String(dark));
+};
+
+if (themeToggle) {
+  applyTheme(document.documentElement.dataset.theme);
+  themeToggle.hidden = false;
+  themeToggle.addEventListener('click', () => {
+    const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    applyTheme(theme);
+    try {
+      localStorage.setItem('kr8tig-theme', theme);
+    } catch { /* Keep the current page usable when storage is blocked. */ }
+  });
+  window.addEventListener('storage', (event) => {
+    if (event.key === 'kr8tig-theme' || event.key === null) applyTheme(event.newValue);
+  });
+}
+
 // Navbar Scroll Logic
 const header = document.getElementById('main-header');
 const hero = document.querySelector('section.relative.h-screen');
