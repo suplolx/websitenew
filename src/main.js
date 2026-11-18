@@ -105,22 +105,31 @@ if (document.readyState === 'loading') {
   initScrollReveal();
 }
 
-// Intake Form Mailto Handler
-const intakeForm = document.getElementById('intake-form');
-if (intakeForm) {
-  intakeForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    
-    const name = document.getElementById('name')?.value || '';
-    const organization = document.getElementById('organization')?.value || '';
-    const email = document.getElementById('email')?.value || '';
-    const phone = document.getElementById('phone')?.value || '';
-    const service = document.getElementById('service')?.value || '';
-    const message = document.getElementById('message')?.value || '';
+// Shared Mailto Form Handler
+const bindMailtoForm = (formId, recipient, buildMail) => {
+  const form = document.getElementById(formId);
+  if (!form) return;
 
-    // Format the email body
-    const emailSubject = `Aanvraag Intake Verwijzer - ${name}`;
-    const emailBody = `Beste Kr8tig,
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const { subject, body } = buildMail();
+    const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoLink;
+  });
+};
+
+// Intake Form Mailto Handler
+bindMailtoForm('intake-form', 'info@kr8tig.nl', () => {
+  const name = document.getElementById('name')?.value || '';
+  const organization = document.getElementById('organization')?.value || '';
+  const email = document.getElementById('email')?.value || '';
+  const phone = document.getElementById('phone')?.value || '';
+  const service = document.getElementById('service')?.value || '';
+  const message = document.getElementById('message')?.value || '';
+
+  return {
+    subject: `Aanvraag Intake Verwijzer - ${name}`,
+    body: `Beste Kr8tig,
 
 Hierbij ontvangt u een aanvraag voor een intake:
 
@@ -134,15 +143,40 @@ Korte toelichting:
 ${message}
 
 Met vriendelijke groet,
-${name}`;
+${name}`,
+  };
+});
 
-    // Create mailto link
-    const mailtoLink = `mailto:info@kr8tig.nl?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
-    
-    // Open default mail client
-    window.location.href = mailtoLink;
-  });
-}
+// Kerstmarkt Kraam Aanvraag Mailto Handler
+bindMailtoForm('kerstmarkt-form', 'samen@kr8tig.nl', () => {
+  const name = document.getElementById('km-name')?.value || '';
+  const organization = document.getElementById('km-organization')?.value || '';
+  const email = document.getElementById('km-email')?.value || '';
+  const phone = document.getElementById('km-phone')?.value || '';
+  const providerType = document.getElementById('km-type')?.value || '';
+  const stalls = document.getElementById('km-stalls')?.value || '1';
+  const products = document.getElementById('km-products')?.value || '';
+
+  return {
+    subject: `Aanmelding Kraam Kerstmarkt - ${organization || name}`,
+    body: `Beste Kr8tig,
+
+Hierbij meld ik mij aan voor een kraam op de openbare kerstmarkt op zaterdag 12 december:
+
+Contactpersoon: ${name}
+Bedrijf / Organisatie: ${organization}
+Type aanbieder: ${providerType}
+E-mailadres: ${email}
+Telefoonnummer: ${phone}
+Aantal kramen (€ 20,- per kraam): ${stalls}
+
+Wat wilt u verkopen / aanbieden (en eventuele vragen):
+${products}
+
+Met vriendelijke groet,
+${name}`,
+  };
+});
 
 // Mobile Accordion Dropdown Toggle
 document.addEventListener('click', (e) => {

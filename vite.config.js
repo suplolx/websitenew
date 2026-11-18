@@ -80,7 +80,8 @@ export default defineConfig({
         techniek: 'techniek.html',
         fietsenmaker: 'fietsenmaker.html',
         werkenbij: 'werkenbij.html',
-        kapsalon: 'kapsalon.html'
+        kapsalon: 'kapsalon.html',
+        kerstmarkt: 'kerstmarkt.html'
       }
     }
   }

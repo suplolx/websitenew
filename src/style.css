@@ -190,6 +190,57 @@ header.scrolled .border-l {
   transform: scaleX(1);
 }
 
+/* Temporary Festive Kerstmarkt Button in Header */
+.nav-kerst-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #b91c1c 0%, #991b1b 55%, #166534 100%);
+  border: 1.5px solid rgba(253, 224, 71, 0.8);
+  box-shadow: 0 4px 14px -2px rgba(185, 28, 28, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, filter 0.25s ease;
+  white-space: nowrap;
+}
+
+.nav-kerst-btn:hover {
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  filter: brightness(1.07);
+  box-shadow: 0 8px 22px -4px rgba(185, 28, 28, 0.55), 0 0 0 3px rgba(253, 224, 71, 0.32);
+}
+
+.nav-kerst-btn:focus-visible {
+  outline: 3px solid #fde047;
+  outline-offset: 2px;
+}
+
+.mobile-kerst-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  align-self: center;
+  margin-top: 0.5rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: 9999px;
+  font-size: 1.35rem;
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #b91c1c 0%, #991b1b 55%, #166534 100%);
+  border: 2px solid rgba(253, 224, 71, 0.85);
+  box-shadow: 0 8px 24px -4px rgba(185, 28, 28, 0.5);
+}
+
+.mobile-kerst-btn:hover {
+  color: #fde047 !important;
+}
+
 /* Hero Section Refinements */
 section.relative.h-screen {
   background-color: #09050d;
@@ -675,6 +726,11 @@ footer.bg-slate-900 a:hover {
 #mobile-menu.active nav > a:nth-child(5),
 #mobile-menu.active nav > .mobile-dropdown:nth-child(5) .mobile-nav-link {
   transition-delay: 0.3s;
+}
+
+#mobile-menu.active nav > a:nth-child(6),
+#mobile-menu.active nav > .mobile-dropdown:nth-child(6) .mobile-nav-link {
+  transition-delay: 0.35s;
 }
 
 /* Desktop Dropdown Menu */

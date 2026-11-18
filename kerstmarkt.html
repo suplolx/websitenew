@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title>Kerstmarkt - Kr8tig</title>
+  <load src="./src/components/head-common.html" />
+</head>
+
+<body
+  class="flex flex-col min-h-screen bg-slate-50 text-slate-800 font-sans selection:bg-primary/20 selection:text-primary">
+
+  <load src="./src/components/header.html" />
+
+  <!-- Page Header -->
+  <section class="pt-32 pb-16 bg-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6 font-heading tracking-tight">Openbare Kerstmarkt</h1>
+      <div class="w-24 h-1.5 bg-primary mx-auto rounded-full mb-8"></div>
+      <p class="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-8">
+        Kom genieten van een sfeervolle kerstmarkt bij Kr8tig vol mooie producten, lekkernijen en bijzondere kraampjes. Samen met andere organisaties, ondernemers en particulieren zorgen we op zaterdag 12 december voor een gevarieerd aanbod voor jong en oud.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+        <a href="#kraam-huren"
+          class="inline-flex items-center justify-center bg-primary hover:bg-primary-light text-white text-xs font-bold uppercase tracking-wider px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5">
+          Kraam huren (&euro; 20,-)
+        </a>
+        <a href="#praktische-info"
+          class="inline-flex items-center justify-center bg-white hover:bg-slate-50 text-slate-800 border border-slate-200 text-xs font-bold uppercase tracking-wider px-8 py-4 rounded-full shadow-sm hover:shadow transition-all duration-300 hover:-translate-y-0.5">
+          Praktische informatie
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content Section -->
+  <section class="py-20 bg-white relative overflow-hidden bg-grid-pattern">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+      <!-- Praktische info kaarten -->
+      <div id="praktische-info" class="grid md:grid-cols-3 gap-8 mb-16">
+        <!-- Datum & Tijd -->
+        <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200/80 shadow-sm flex flex-col">
+          <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h2 class="text-xl font-bold text-slate-900 mb-3">Datum &amp; openingstijden</h2>
+          <p class="text-slate-800 font-semibold mb-1">Zaterdag 12 december</p>
+          <p class="text-slate-600 mb-3">Van 11:00 tot 20:00 uur</p>
+          <p class="text-sm text-primary font-semibold mt-auto">Gratis entree voor alle bezoekers</p>
+        </div>
+
+        <!-- Locatie & Ingangen -->
+        <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200/80 shadow-sm flex flex-col">
+          <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </div>
+          <h2 class="text-xl font-bold text-slate-900 mb-3">Locatie &amp; ingangen</h2>
+          <p class="text-slate-800 font-semibold mb-1">Parallelweg 168 of Molenveldstraat 153</p>
+          <p class="text-slate-600 mb-3">6001 HM Weert (Perron 8)</p>
+          <a href="https://maps.google.com/?q=Parallelweg+168,+6001+HM+Weert" target="_blank" rel="noopener noreferrer"
+            class="text-sm text-primary font-semibold hover:underline mt-auto inline-flex items-center gap-1">
+            Open in Google Maps &rarr;
+          </a>
+        </div>
+
+        <!-- Kraam huren -->
+        <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200/80 shadow-sm flex flex-col">
+          <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+            </svg>
+          </div>
+          <h2 class="text-xl font-bold text-slate-900 mb-3">Kraam huren</h2>
+          <p class="text-slate-800 font-semibold mb-1">&euro; 20,- per kraam</p>
+          <p class="text-slate-600 mb-3">Voor bedrijven, organisaties en particulieren</p>
+          <p class="text-sm text-primary font-semibold mt-auto">Opgave v&oacute;&oacute;r 20 november</p>
+        </div>
+      </div>
+
+      <!-- Sfeer & Wat er te beleven is -->
+      <div class="grid lg:grid-cols-12 gap-8 mb-20 items-stretch">
+        <div class="lg:col-span-7 bg-slate-50 p-8 sm:p-10 rounded-2xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">Sfeer, lokaal talent en ontmoeting</h2>
+            <div class="space-y-4 text-slate-600 leading-relaxed text-base sm:text-lg">
+              <p class="text-slate-800 font-medium">
+                Voor jong en oud is er genoeg te beleven tijdens de openbare kerstmarkt bij Kr8tig.
+              </p>
+              <p>
+                Samen met andere organisaties, ondernemers en particulieren bieden we een gevarieerd aanbod van creatieve cadeaus, kerstdecoraties, lekkernijen en nog veel meer.
+              </p>
+              <p>
+                De entree is gratis. Kom gezellig langs, steun lokaal talent en ontdek wat Kr8tig en onze afdelingen allemaal te bieden hebben. Samen maken we er iets moois van!
+              </p>
+            </div>
+          </div>
+          <div class="mt-8 pt-6 border-t border-slate-200/80">
+            <a href="afdelingen.html" class="inline-flex items-center text-primary font-bold hover:text-primary-light transition-colors">
+              Ontdek de afdelingen van Kr8tig
+              <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5 bg-gradient-to-r from-primary to-primary-light text-white p-8 sm:p-10 rounded-2xl shadow-xl flex flex-col justify-between">
+          <div>
+            <h2 class="text-2xl sm:text-3xl font-bold mb-6 tracking-tight">Samen Kr8tig</h2>
+            <ul class="space-y-4 text-white/95 text-base">
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Openbare kerstmarkt voor iedereen</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Gratis toegang van 11:00 tot 20:00 uur</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Creatieve cadeaus, kerstdecoraties &amp; lekkernijen</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Ingang via Parallelweg 168 &amp; Molenveldstraat 153</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Kraam huren mogelijk voor &euro; 20,- per kraam</span>
+              </li>
+            </ul>
+          </div>
+          <p class="mt-8 pt-6 border-t border-white/20 text-sm text-white/85">
+            Wilt u zelf producten verkopen of uw bedrijf of organisatie presenteren? Meld u hieronder aan.
+          </p>
+        </div>
+      </div>
+
+      <!-- Kraam huren & Aanmeldformulier -->
+      <div class="grid lg:grid-cols-12 gap-12 items-start" id="kraam-huren">
+
+        <!-- Linkerkolom: Informatie voor standhouders -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="bg-slate-50 p-8 sm:p-10 rounded-2xl border border-slate-200/80 shadow-sm">
+            <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">Ook een kraam op de openbare kerstmarkt?</h2>
+            <p class="text-slate-600 leading-relaxed mb-4">
+              Bedrijven, ondernemers, organisaties en particulieren kunnen een kraam huren op onze kerstmarkt om hun producten of lekkernijen te verkopen en lokale bezoekers te ontmoeten.
+            </p>
+            <p class="text-slate-600 leading-relaxed mb-6">
+              De kosten bedragen <strong class="text-slate-900">&euro; 20,- per kraam</strong>. Opgave kan v&oacute;&oacute;r <strong class="text-slate-900">20 november</strong> via onderstaand formulier of per e-mail.
+            </p>
+
+            <div class="bg-white/70 p-5 rounded-xl border border-slate-200/80 mb-8 space-y-2 text-sm">
+              <div class="flex justify-between gap-4">
+                <span class="text-slate-500">Kosten</span>
+                <span class="font-bold text-slate-900">&euro; 20,- per kraam</span>
+              </div>
+              <div class="flex justify-between gap-4">
+                <span class="text-slate-500">Datum &amp; tijd</span>
+                <span class="font-semibold text-slate-800">Za 12 dec, 11:00 – 20:00</span>
+              </div>
+              <div class="flex justify-between gap-4">
+                <span class="text-slate-500">Locatie</span>
+                <span class="font-semibold text-slate-800">Parallelweg 168, Weert</span>
+              </div>
+              <div class="flex justify-between gap-4">
+                <span class="text-slate-500">Opgave</span>
+                <span class="font-bold text-primary">V&oacute;&oacute;r 20 november</span>
+              </div>
+            </div>
+
+            <div class="pt-6 border-t border-slate-200 space-y-4">
+              <h3 class="font-bold text-slate-900 text-sm uppercase tracking-wider">Direct contact voor kramen</h3>
+              <div class="space-y-3 text-sm">
+                <a href="mailto:samen@kr8tig.nl?subject=Aanmelding%20Kraam%20Kerstmarkt"
+                  class="flex items-center gap-3 text-slate-600 hover:text-primary transition-colors">
+                  <div class="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center text-primary shrink-0">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <span>samen@kr8tig.nl</span>
+                </a>
+                <a href="tel:0495769076" class="flex items-center gap-3 text-slate-600 hover:text-primary transition-colors">
+                  <div class="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center text-primary shrink-0">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                  </div>
+                  <span>0495-769076</span>
+                </a>
+                <div class="flex items-start gap-3 text-slate-600">
+                  <div class="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center text-primary shrink-0 mt-0.5">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  <span>Parallelweg 168 / Molenveldstraat 153, Weert</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rechterkolom: Kraam aanvragen Formulier -->
+        <div class="lg:col-span-7 bg-white rounded-2xl p-8 sm:p-10 shadow-xl border border-slate-200/80 relative overflow-hidden">
+          <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-2">Kraam aanvragen</h2>
+          <p class="text-slate-500 mb-8">
+            Vul onderstaand formulier in en verstuur uw aanmelding naar <a href="mailto:samen@kr8tig.nl" class="text-primary font-semibold hover:underline">samen@kr8tig.nl</a>.
+          </p>
+
+          <form id="kerstmarkt-form" action="mailto:samen@kr8tig.nl" method="POST" enctype="text/plain" class="space-y-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div>
+                <label for="km-name" class="block text-sm font-medium text-slate-700 mb-2">Naam contactpersoon *</label>
+                <input type="text" id="km-name" required
+                  class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary transition-colors bg-slate-50 focus:bg-white"
+                  placeholder="Uw naam">
+              </div>
+              <div>
+                <label for="km-organization" class="block text-sm font-medium text-slate-700 mb-2">Bedrijf / Organisatie *</label>
+                <input type="text" id="km-organization" required
+                  class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary transition-colors bg-slate-50 focus:bg-white"
+                  placeholder="Bedrijfsnaam (of particulier)">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div>
+                <label for="km-email" class="block text-sm font-medium text-slate-700 mb-2">E-mailadres *</label>
+                <input type="email" id="km-email" required
+                  class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary transition-colors bg-slate-50 focus:bg-white"
+                  placeholder="naam@bedrijf.nl">
+              </div>
+              <div>
+                <label for="km-phone" class="block text-sm font-medium text-slate-700 mb-2">Telefoonnummer *</label>
+                <input type="tel" id="km-phone" required
+                  class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary transition-colors bg-slate-50 focus:bg-white"
+                  placeholder="06 12345678">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div>
+                <label for="km-type" class="block text-sm font-medium text-slate-700 mb-2">Type aanbieder</label>
+                <select id="km-type"
+                  class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary transition-colors bg-slate-50 focus:bg-white">
+                  <option value="Bedrijf / ondernemer">Bedrijf / ondernemer</option>
+                  <option value="Organisatie / stichting">Organisatie / stichting</option>
+                  <option value="Particulier">Particulier</option>
+                </select>
+              </div>
+              <div>
+                <label for="km-stalls" class="block text-sm font-medium text-slate-700 mb-2">Aantal kramen (&euro; 20,- p.st.) *</label>
+                <input type="number" id="km-stalls" min="1" max="10" value="1" required
+                  class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary transition-colors bg-slate-50 focus:bg-white">
+              </div>
+            </div>
+
+            <div>
+              <label for="km-products" class="block text-sm font-medium text-slate-700 mb-2">Wat wilt u verkopen of aanbieden? *</label>
+              <textarea id="km-products" rows="4" required
+                class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-primary focus:border-primary transition-colors bg-slate-50 focus:bg-white"
+                placeholder="Beschrijf kort uw producten/aanbod en eventuele vragen of wensen"></textarea>
+            </div>
+
+            <button type="submit"
+              class="w-full bg-primary hover:bg-primary-light text-white font-bold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer">
+              Aanmelding Versturen
+            </button>
+
+            <p class="text-xs text-center text-slate-500">
+              Opent uw standaard e-mailprogramma richting <a href="mailto:samen@kr8tig.nl" class="text-primary font-semibold hover:underline">samen@kr8tig.nl</a>.
+            </p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <load src="./src/components/footer.html" />
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
