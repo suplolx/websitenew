@@ -844,3 +844,13 @@ header.scrolled .theme-toggle { color: #334155; }
   border-right-color: var(--theme-border) !important;
   border-bottom-color: var(--theme-border) !important;
 }
+
+/* Keep certification logos on white in both themes. */
+.footer-certification-logo {
+  background-color: #fff;
+  min-width: 0;
+}
+
+.footer-certification-logo img {
+  transform: scale(1.1);
+}
