@@ -11,12 +11,16 @@
 
   <load src="./src/components/header.html" />
 
-  <!-- Page Header -->
-  <section class="pt-32 pb-16 bg-slate-100">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6 font-heading tracking-tight">Openbare Kerstmarkt</h1>
+  <!-- Hero Section -->
+  <section class="relative h-screen min-h-[640px] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="./assets/banners/kerstbanner.jpg" alt="Rode kerstbal tussen sfeervolle kerstverlichting" class="w-full h-full object-cover" fetchpriority="high" />
+      <div class="absolute inset-0 bg-black/60"></div>
+    </div>
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 font-heading tracking-tight">Openbare Kerstmarkt</h1>
       <div class="w-24 h-1.5 bg-primary mx-auto rounded-full mb-8"></div>
-      <p class="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-8">
+      <p class="text-lg md:text-xl text-white max-w-3xl mx-auto leading-relaxed mb-8">
         Kom genieten van een sfeervolle kerstmarkt bij Kr8tig vol mooie producten, lekkernijen en bijzondere kraampjes. Samen met andere organisaties, ondernemers en particulieren zorgen we op zaterdag 12 december voor een gevarieerd aanbod voor jong en oud.
       </p>
       <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
@@ -82,7 +86,6 @@
           <h2 class="text-xl font-bold text-slate-900 mb-3">Kraam huren</h2>
           <p class="text-slate-800 font-semibold mb-1">&euro; 20,- per kraam</p>
           <p class="text-slate-600 mb-3">Voor bedrijven, organisaties en particulieren</p>
-          <p class="text-sm text-primary font-semibold mt-auto">Opgave v&oacute;&oacute;r 20 november</p>
         </div>
       </div>
 
@@ -166,7 +169,7 @@
               Bedrijven, ondernemers, organisaties en particulieren kunnen een kraam huren op onze kerstmarkt om hun producten of lekkernijen te verkopen en lokale bezoekers te ontmoeten.
             </p>
             <p class="text-slate-600 leading-relaxed mb-6">
-              De kosten bedragen <strong class="text-slate-900">&euro; 20,- per kraam</strong>. Opgave kan v&oacute;&oacute;r <strong class="text-slate-900">20 november</strong> via onderstaand formulier of per e-mail.
+              De kosten bedragen <strong class="text-slate-900">&euro; 20,- per kraam</strong>. Aanmelden kan via onderstaand formulier of per e-mail.
             </p>
 
             <div class="bg-white/70 p-5 rounded-xl border border-slate-200/80 mb-8 space-y-2 text-sm">
@@ -181,10 +184,6 @@
               <div class="flex justify-between gap-4">
                 <span class="text-slate-500">Locatie</span>
                 <span class="font-semibold text-slate-800">Parallelweg 168, Weert</span>
-              </div>
-              <div class="flex justify-between gap-4">
-                <span class="text-slate-500">Opgave</span>
-                <span class="font-bold text-primary">V&oacute;&oacute;r 20 november</span>
               </div>
             </div>
 
