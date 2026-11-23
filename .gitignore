@@ -28,3 +28,6 @@ dist-ssr
 
 # Cache
 .cache/
+
+# Lokale bronbestanden voor webvideo's
+/assets/originelen/
